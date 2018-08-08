@@ -67,7 +67,7 @@ return /******/ (function(modules) { // webpackBootstrap
 /******/ 	__webpack_require__.o = function(object, property) { return Object.prototype.hasOwnProperty.call(object, property); };
 /******/
 /******/ 	// __webpack_public_path__
-/******/ 	__webpack_require__.p = "/";
+/******/ 	__webpack_require__.p = "https://www.chasegrock.com/";
 /******/
 /******/ 	// Load entry module and return exports
 /******/ 	return __webpack_require__(__webpack_require__.s = 10);
@@ -1060,6 +1060,17 @@ var App = function App() {
     _react2.default.createElement(
       'div',
       null,
+      _react2.default.createElement(
+        _reactStatic.Head,
+        null,
+        _react2.default.createElement('meta', { charSet: 'UTF-8' }),
+        _react2.default.createElement(
+          'title',
+          null,
+          'Chase G Rock'
+        ),
+        _react2.default.createElement('link', { rel: 'shortcut icon', href: 'favicon.png' })
+      ),
       _react2.default.createElement(_header2.default, null),
       _react2.default.createElement(
         'div',
@@ -2309,4 +2320,4 @@ function toComment(sourceMap) {
 /***/ })
 /******/ ]);
 });
-//# sourceMappingURL=static.ea48f7ec.js.map
+//# sourceMappingURL=static.85a86ffa.js.map
