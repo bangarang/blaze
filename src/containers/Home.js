@@ -11,13 +11,7 @@ import {spring, presets, Motion, StaggeredMotion,TransitionMotion}  from 'react-
 import Waypoint from 'react-waypoint';
 import createHistory from "history/createBrowserHistory"
 
-const history = createHistory()
-// export default withSiteData(() => (
-//   <div>
-//     <h1 style={{ textAlign: 'center' }}>Welcome to</h1>
-//     <img src={logoImg} alt="" />
-//   </div>
-// ))
+const history = createHistory();
 
 class HomePage extends Component {
 
@@ -253,11 +247,11 @@ class HomePage extends Component {
               <h4>Presentations</h4>
 
               <div className={'presentation'}>
-                <p>May 2017 - <i>Relationship Between Step-to-Step Variability and Metabolic Cost of Transport in Human Walking</i>, <a href="https://www.unomaha.edu/college-of-education/cobre/events-outreach/conference.php" target="_blank">2nd Annual Human Movement Variability Conference,</a>, <a href="http://www.unomaha.edu/" target="_blank">University of Nebraska at Omaha</a>, Omaha, NE <br /></p>
+                <p>May 2017 - <i>Relationship Between Step-to-Step Variability and Metabolic Cost of Transport in Human Walking</i>, <a href="https://www.unomaha.edu/college-of-education/cobre/events-outreach/conference.php" target="_blank">2nd Annual Human Movement Variability Conference</a>, <a href="http://www.unomaha.edu/" target="_blank">University of Nebraska at Omaha</a>, Omaha, NE <br /></p>
               </div>
 
               <div className={'presentation'}>
-                <p>April 2017 - <i>Relationship Between Step-to-Step Variability and Metabolic Cost of Transport in Human Walking</i>, <a href="https://sites.google.com/site/asbrockymountain/about-us" target="_blank">7th Annual Meeting of the Rocky Mountain American Society of Biomechanics</a>, Estest Park, CO <br /></p>
+                <p>April 2017 - <i>Relationship Between Step-to-Step Variability and Metabolic Cost of Transport in Human Walking</i>, <a href="https://sites.google.com/site/asbrockymountain/about-us" target="_blank">7th Annual Meeting of the Rocky Mountain American Society of Biomechanics</a>, Estes Park, CO <br /></p>
               </div>
 
               <div className={'presentation'}>

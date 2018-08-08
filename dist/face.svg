@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 20.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 456 390.7" style="enable-background:new 0 0 456 390.7;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:none;}
+	.st1{fill:none;stroke:#010101;stroke-miterlimit:10;}
+	.st2{fill:none;stroke:#010101;stroke-width:10;stroke-miterlimit:10;}
+	.st3{fill:#010101;stroke:#010101;stroke-miterlimit:10;}
+	.st4{fill:url(#SVGID_1_);}
+</style>
+<pattern  x="-78" y="-201" width="113.2" height="271.2" patternUnits="userSpaceOnUse" id="lines_blk" viewBox="0 -271.2 113.2 271.2" style="overflow:visible;">
+	<g>
+		<rect y="-271.2" class="st0" width="113.2" height="271.2"/>
+		<g>
+			<line class="st1" x1="91.1" y1="-271.2" x2="91.1" y2="0"/>
+			<line class="st1" x1="112.7" y1="-271.2" x2="112.7" y2="0"/>
+		</g>
+		<g>
+			<line class="st1" x1="68.4" y1="-271.2" x2="68.4" y2="0"/>
+			<line class="st1" x1="90.1" y1="-271.2" x2="90.1" y2="0"/>
+		</g>
+		<g>
+			<line class="st1" x1="45.8" y1="-271.2" x2="45.8" y2="0"/>
+			<line class="st1" x1="67.4" y1="-271.2" x2="67.4" y2="0"/>
+		</g>
+		<g>
+			<line class="st1" x1="23.1" y1="-271.2" x2="23.1" y2="0"/>
+			<line class="st1" x1="44.8" y1="-271.2" x2="44.8" y2="0"/>
+		</g>
+		<g>
+			<line class="st1" x1="0.5" y1="-271.2" x2="0.5" y2="0"/>
+			<line class="st1" x1="22.1" y1="-271.2" x2="22.1" y2="0"/>
+		</g>
+	</g>
+</pattern>
+<g>
+	<path class="st1" d="M23.8,103.7h155.6c9.8,0,17.8-8,17.8-17.8V23.4c0-9.8-8-17.8-17.8-17.8H23.8C13.9,5.6,6,13.6,6,23.4v62.5
+		C6,95.7,13.9,103.7,23.8,103.7z"/>
+	<path class="st1" d="M450.2,85.9V23.4c0-9.8-8-17.8-17.8-17.8H276.9c-9.8,0-17.8,8-17.8,17.8v62.5c0,9.8,8,17.8,17.8,17.8h151.8
+		h3.8C442.3,103.7,450.2,95.7,450.2,85.9z"/>
+	<g>
+		<path class="st2" d="M197,54V23.1c0-9.8-7.8-18.1-17.6-18.1H23.8C14,5,5,13.2,5,23.1V54"/>
+	</g>
+	<g>
+		<path class="st2" d="M451,54V23.1c0-9.8-8.7-18.1-18.5-18.1H276.9C267,5,259,13.2,259,23.1V54"/>
+	</g>
+	<path class="st3" d="M259.1,26.2v7c-9.2-1-19.3-1.5-29.8-1.5c-11.5,0-22.5,0.6-32.3,1.8v-7.3H259.1z"/>
+	<pattern  id="SVGID_1_" xlink:href="#lines_blk" patternTransform="matrix(0.208 -0.208 0.208 0.208 -3362.0544 -7268.2202)">
+	</pattern>
+	<path class="st4" d="M97.4,355.1V240.7l257.6-0.6v115l0,0l73.6-73.6V103.7h3.8c9.8,0,17.8-8,17.8-17.8v213.3l-91.4,91.4l-261.4,0.1
+		L6,299.3V85.9l0,0c0,9.8,8,17.8,17.8,17.8v177.7L97.4,355.1 M326.8,270.1H125.6v64.7h201.3V270.1z"/>
+</g>
+</svg>
