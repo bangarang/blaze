@@ -22,6 +22,7 @@ class HomePage extends Component {
       logo: false,
       main_logo: false,
       name: false,
+      biomechanics: false,
       neuroscience: false,
       face: false
     };
@@ -41,16 +42,21 @@ class HomePage extends Component {
       console.log("name");
       self.setState({name: true});
     }, 1000);
+    
+    setTimeout(function() {
+      console.log("biomechanics");
+      self.setState({biomechanics: true});
+    }, 1250);
 
     setTimeout(function() {
       console.log("neuroscience");
       self.setState({neuroscience: true});
-    }, 1250);
+    }, 1450);
 
     setTimeout(function() {
       console.log("face");
       self.setState({face: true});
-    }, 1500);
+    }, 1700);
     if (pathname.length){
       setTimeout(function() {
         console.log("scroller");
@@ -91,6 +97,7 @@ class HomePage extends Component {
       pathname,
       logo,
       name,
+      biomechanics,
       neuroscience,
       face,
       main_logo
@@ -173,9 +180,9 @@ class HomePage extends Component {
               : <h1 style={{ opacity: 0 }} className={'big_name'}>CHASE ROCK</h1>
             }
 
-            { neuroscience ?
+            { biomechanics ?
               <Motion
-                key="neuroscience"
+                key="biomechanics"
                 defaultStyle={{x: 100, opacity: 0}}
                 style={{x: spring(0, presets.gentle), opacity: spring(1, presets.gentle)}}>
                 {  function (name_style) {
@@ -187,11 +194,32 @@ class HomePage extends Component {
                             transform: `translateY(${name_style.x}px)`,
                             opacity: name_style.opacity
                           }}
+                      >Biomechanics, M.S.</h2>
+                  )
+                }}
+              </Motion>
+              : <h2 className={'subheader'} style={{ opacity: 0 }}>Biomechanics, M.S.</h2>
+            }
+
+            { neuroscience ?
+              <Motion
+                key="neuroscience"
+                defaultStyle={{x: 100, opacity: 0}}
+                style={{x: spring(0, presets.gentle), opacity: spring(1, presets.gentle)}}>
+                {  function (name_style) {
+                  return (
+                    <h2
+                      className={'subheader smaller'}
+                      style={{
+                            WebkitTransform: `translateY(${name_style.x}px)`,
+                            transform: `translateY(${name_style.x}px)`,
+                            opacity: name_style.opacity
+                          }}
                       >Neuroscience, B.S.</h2>
                   )
                 }}
               </Motion>
-              : <h2 className={'subheader'} style={{ opacity: 0 }}>Neuroscience, B.S.</h2>
+              : <h2 className={'subheader smaller'} style={{ opacity: 0 }}>Neuroscience, B.S.</h2>
             }
 
           </div>
@@ -247,23 +275,23 @@ class HomePage extends Component {
               <h4>Presentations</h4>
 
               <div className={'presentation'}>
-                <p>May 2017 - <i>Relationship Between Step-to-Step Variability and Metabolic Cost of Transport in Human Walking</i>, <a href="https://www.unomaha.edu/college-of-education/cobre/events-outreach/conference.php" target="_blank">2nd Annual Human Movement Variability Conference</a>, <a href="http://www.unomaha.edu/" target="_blank">University of Nebraska at Omaha</a>, Omaha, NE <br /></p>
+                <p>May 2017 - <i>Relationship Between Step-to-Step Variability and Metabolic Cost of Transport in Human Walking</i>, <a href="https://www.unomaha.edu/college-of-education/cobre/events-outreach/conference.php" target="_blank">2nd Annual Human Movement Variability Conference,</a> <a href="http://www.unomaha.edu/" target="_blank">University of Nebraska at Omaha,</a> Omaha, NE <br /></p>
               </div>
 
               <div className={'presentation'}>
-                <p>April 2017 - <i>Relationship Between Step-to-Step Variability and Metabolic Cost of Transport in Human Walking</i>, <a href="https://sites.google.com/site/asbrockymountain/about-us" target="_blank">7th Annual Meeting of the Rocky Mountain American Society of Biomechanics</a>, Estes Park, CO <br /></p>
+                <p>April 2017 - <i>Relationship Between Step-to-Step Variability and Metabolic Cost of Transport in Human Walking</i>, <a href="https://sites.google.com/site/asbrockymountain/about-us" target="_blank">7th Annual Meeting of the Rocky Mountain American Society of Biomechanics,</a> Estes Park, CO <br /></p>
               </div>
 
               <div className={'presentation'}>
-                <p>April 2017 - <i>Efficient Variability: Linking Fractal Walking Patterns with Metabolic Energy Savings</i>, <a href="https://nebraskaacademyofsciences.wildapricot.org/" target="_blank">Nebraska Academy of Sciences Annual Meeting</a>, <a href="http://www.unl.edu/" target="_blank">University of Nebraska at Lincoln</a>, Lincoln, NE <br /></p>
+                <p>April 2017 - <i>Efficient Variability: Linking Fractal Walking Patterns with Metabolic Energy Savings</i>, <a href="https://nebraskaacademyofsciences.wildapricot.org/" target="_blank">Nebraska Academy of Sciences Annual Meeting,</a> <a href="http://www.unl.edu/" target="_blank">University of Nebraska at Lincoln,</a> Lincoln, NE <br /></p>
               </div>
 
               <div className={'presentation'}>
-                <p>March 2017 - <i>Efficient Variability: Linking Fractal Walking Patterns with Metabolic Energy Savings</i>, <a href="https://www.unomaha.edu/office-of-research-and-creative-activity/students/research-and-creative-activity-fair.php" target="_blank">Research and Creative Activity Fair</a>, <a href="http://www.unomaha.edu/" target="_blank">University of Nebraska at Omaha</a>, Omaha, NE <br /></p>
+                <p>March 2017 - <i>Efficient Variability: Linking Fractal Walking Patterns with Metabolic Energy Savings</i>, <a href="https://www.unomaha.edu/office-of-research-and-creative-activity/students/research-and-creative-activity-fair.php" target="_blank">Research and Creative Activity Fair,</a> <a href="http://www.unomaha.edu/" target="_blank">University of Nebraska at Omaha,</a> Omaha, NE <br /></p>
               </div>
 
               <div className={'presentation'}>
-                <p>October 2016 - <i>Relationship Between Metabolic Cost of Transport and Stride-to-Stride Variability</i>, <a href="http://nric.nebraska.edu/" target="_blank">Symposium on Biomechanics</a>, <a href="http://www.unomaha.edu/" target="_blank">University of Nebraska at Omaha</a>, Omaha, NE <br /></p>
+                <p>October 2016 - <i>Relationship Between Metabolic Cost of Transport and Stride-to-Stride Variability</i>, <a href="http://nric.nebraska.edu/" target="_blank">Symposium on Biomechanics,</a> <a href="http://www.unomaha.edu/" target="_blank">University of Nebraska at Omaha,</a> Omaha, NE <br /></p>
 
                 <p><a className={'presentation_button'} href="/ChaseRock_UNOSymposium_2016.pdf">Poster</a></p>
               </div>
@@ -271,7 +299,7 @@ class HomePage extends Component {
 
               <div className={'presentation'}>
                 <p>August 2016 - <i>Relationship Between Prosthetic Push-Off Work And Stride-To-Stride Fluctuations In Transtibial Prosthesis Users</i> <br />
-                <a href="http://asb2016.asbweb.org/" target="_blank"> 40th Annual Meeting of the American Society of Biomechanics</a>, Raleigh, NC</p>
+                <a href="http://asb2016.asbweb.org/" target="_blank"> 40th Annual Meeting of the American Society of Biomechanics,</a> Raleigh, NC</p>
 
                 <p><a className={'presentation_button'} href="/ChaseRock_ASB 2016_poster.pdf">Poster</a>
                 <a className={'presentation_button'} href="/ChaseRock_ASB2016_abstract.pdf">Abstract</a></p>
@@ -279,24 +307,24 @@ class HomePage extends Component {
 
               <div className={'presentation'}>
                 <p>June 2016 - <i>Metabolic Cost of Transport and the Persistence of Stride-to-Stride Fluctuations in Human Walking</i> <br />
-                <a href="http://www.unomaha.edu/college-of-education/cobre/community-engagement/research-day.php" target="_blank"> Human Movement Variability Conference</a>, Omaha, NE</p>
+                <a href="http://www.unomaha.edu/college-of-education/cobre/community-engagement/research-day.php" target="_blank"> Human Movement Variability Conference,</a> Omaha, NE</p>
               </div>
 
               <div className={'presentation'}>
                 <p>April 2016 – <i>Metabolic Cost of Transport and the Persistence of Stride-to-Stride Fluctuations in Human Walking</i> <br />
-                <a href="https://sites.google.com/site/asbrockymountain/home" target="_blank"> 6th Annual Meeting of the Rocky Mountain American Society of Biomechanics</a>, Estes Park, CO</p>
+                <a href="https://sites.google.com/site/asbrockymountain/home" target="_blank"> 6th Annual Meeting of the Rocky Mountain American Society of Biomechanics,</a> Estes Park, CO</p>
                 <p><a className={'presentation_button'} href="/ChaseRock_RMASB_2016_poster.pdf">Poster</a>
                 <a className={'presentation_button'} href="/ChaseRock_RMASB_2016_abstract.pdf">Abstract</a></p>
               </div>
 
               <div className={'presentation'}>
                 <p>March 2016 - <i>Relationship Between Prosthetic Push-Off Work And Stride-To-Stride Fluctuations In Transtibial Prosthesis Users</i> <br />
-                <a href="http://www.unomaha.edu/office-of-research-and-creative-activity/students/research-and-creative-activity-fair.php" target="_blank"> Research and Creative Activity Fair</a>, <a href="http://www.unomaha.edu/" target="_blank"> University of Nebraska at Omaha</a>, Omaha, NE</p>
+                <a href="http://www.unomaha.edu/office-of-research-and-creative-activity/students/research-and-creative-activity-fair.php" target="_blank"> Research and Creative Activity Fair,</a> <a href="http://www.unomaha.edu/" target="_blank"> University of Nebraska at Omaha,</a> Omaha, NE</p>
               </div>
 
               <div className={'presentation'}>
                 <p>October 2015 – <i>Metabolic Cost and Long-Term Correlations in Human Gait</i> <br />
-                <a href="http://www.unomaha.edu/college-of-education/health-physical-education-recreation/community-engagement/seminar-series/index.php" target="_blank"> School of HPER Seminar Series</a>, <a href="http://www.unomaha.edu/" target="_blank"> University of Nebraska at Omaha</a>, Omaha, NE</p>
+                <a href="http://www.unomaha.edu/college-of-education/health-physical-education-recreation/community-engagement/seminar-series/index.php" target="_blank"> School of HPER Seminar Series,</a> <a href="http://www.unomaha.edu/" target="_blank"> University of Nebraska at Omaha,</a> Omaha, NE</p>
               </div>
 
 

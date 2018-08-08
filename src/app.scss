@@ -141,6 +141,9 @@ a:hover, a.active {
   font-weight: 300;
   font-size: 35px;
   margin: 0;
+  &.smaller {
+    font-size: 26px;
+  }
 }
 .face {
   margin: 50px 0;
@@ -287,6 +290,9 @@ a:hover, a.active {
 
   .subheader {
     font-size: 25px;
+    &.smaller {
+      font-size: 20px;
+    }
   }
 
 }
