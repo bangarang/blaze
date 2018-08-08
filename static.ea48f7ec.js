@@ -300,6 +300,7 @@ var HomePage = function (_Component) {
       logo: false,
       main_logo: false,
       name: false,
+      biomechanics: false,
       neuroscience: false,
       face: false
     };
@@ -324,14 +325,19 @@ var HomePage = function (_Component) {
       }, 1000);
 
       setTimeout(function () {
+        console.log("biomechanics");
+        self.setState({ biomechanics: true });
+      }, 1250);
+
+      setTimeout(function () {
         console.log("neuroscience");
         self.setState({ neuroscience: true });
-      }, 1250);
+      }, 1450);
 
       setTimeout(function () {
         console.log("face");
         self.setState({ face: true });
-      }, 1500);
+      }, 1700);
       if (pathname.length) {
         setTimeout(function () {
           console.log("scroller");
@@ -375,6 +381,7 @@ var HomePage = function (_Component) {
           pathname = _state.pathname,
           logo = _state.logo,
           name = _state.name,
+          biomechanics = _state.biomechanics,
           neuroscience = _state.neuroscience,
           face = _state.face,
           main_logo = _state.main_logo;
@@ -469,10 +476,10 @@ var HomePage = function (_Component) {
               { style: { opacity: 0 }, className: 'big_name' },
               'CHASE ROCK'
             ),
-            neuroscience ? _react2.default.createElement(
+            biomechanics ? _react2.default.createElement(
               _reactMotion.Motion,
               {
-                key: 'neuroscience',
+                key: 'biomechanics',
                 defaultStyle: { x: 100, opacity: 0 },
                 style: { x: (0, _reactMotion.spring)(0, _reactMotion.presets.gentle), opacity: (0, _reactMotion.spring)(1, _reactMotion.presets.gentle) } },
               function (name_style) {
@@ -486,12 +493,37 @@ var HomePage = function (_Component) {
                       opacity: name_style.opacity
                     }
                   },
-                  'Neuroscience, B.S.'
+                  'Biomechanics, M.S.'
                 );
               }
             ) : _react2.default.createElement(
               'h2',
               { className: 'subheader', style: { opacity: 0 } },
+              'Biomechanics, M.S.'
+            ),
+            neuroscience ? _react2.default.createElement(
+              _reactMotion.Motion,
+              {
+                key: 'neuroscience',
+                defaultStyle: { x: 100, opacity: 0 },
+                style: { x: (0, _reactMotion.spring)(0, _reactMotion.presets.gentle), opacity: (0, _reactMotion.spring)(1, _reactMotion.presets.gentle) } },
+              function (name_style) {
+                return _react2.default.createElement(
+                  'h2',
+                  {
+                    className: 'subheader smaller',
+                    style: {
+                      WebkitTransform: 'translateY(' + name_style.x + 'px)',
+                      transform: 'translateY(' + name_style.x + 'px)',
+                      opacity: name_style.opacity
+                    }
+                  },
+                  'Neuroscience, B.S.'
+                );
+              }
+            ) : _react2.default.createElement(
+              'h2',
+              { className: 'subheader smaller', style: { opacity: 0 } },
               'Neuroscience, B.S.'
             )
           ),
@@ -598,15 +630,15 @@ var HomePage = function (_Component) {
                   _react2.default.createElement(
                     'a',
                     { href: 'https://www.unomaha.edu/college-of-education/cobre/events-outreach/conference.php', target: '_blank' },
-                    '2nd Annual Human Movement Variability Conference'
+                    '2nd Annual Human Movement Variability Conference,'
                   ),
-                  ', ',
+                  ' ',
                   _react2.default.createElement(
                     'a',
                     { href: 'http://www.unomaha.edu/', target: '_blank' },
-                    'University of Nebraska at Omaha'
+                    'University of Nebraska at Omaha,'
                   ),
-                  ', Omaha, NE ',
+                  ' Omaha, NE ',
                   _react2.default.createElement('br', null)
                 )
               ),
@@ -626,9 +658,9 @@ var HomePage = function (_Component) {
                   _react2.default.createElement(
                     'a',
                     { href: 'https://sites.google.com/site/asbrockymountain/about-us', target: '_blank' },
-                    '7th Annual Meeting of the Rocky Mountain American Society of Biomechanics'
+                    '7th Annual Meeting of the Rocky Mountain American Society of Biomechanics,'
                   ),
-                  ', Estes Park, CO ',
+                  ' Estes Park, CO ',
                   _react2.default.createElement('br', null)
                 )
               ),
@@ -648,15 +680,15 @@ var HomePage = function (_Component) {
                   _react2.default.createElement(
                     'a',
                     { href: 'https://nebraskaacademyofsciences.wildapricot.org/', target: '_blank' },
-                    'Nebraska Academy of Sciences Annual Meeting'
+                    'Nebraska Academy of Sciences Annual Meeting,'
                   ),
-                  ', ',
+                  ' ',
                   _react2.default.createElement(
                     'a',
                     { href: 'http://www.unl.edu/', target: '_blank' },
-                    'University of Nebraska at Lincoln'
+                    'University of Nebraska at Lincoln,'
                   ),
-                  ', Lincoln, NE ',
+                  ' Lincoln, NE ',
                   _react2.default.createElement('br', null)
                 )
               ),
@@ -676,15 +708,15 @@ var HomePage = function (_Component) {
                   _react2.default.createElement(
                     'a',
                     { href: 'https://www.unomaha.edu/office-of-research-and-creative-activity/students/research-and-creative-activity-fair.php', target: '_blank' },
-                    'Research and Creative Activity Fair'
+                    'Research and Creative Activity Fair,'
                   ),
-                  ', ',
+                  ' ',
                   _react2.default.createElement(
                     'a',
                     { href: 'http://www.unomaha.edu/', target: '_blank' },
-                    'University of Nebraska at Omaha'
+                    'University of Nebraska at Omaha,'
                   ),
-                  ', Omaha, NE ',
+                  ' Omaha, NE ',
                   _react2.default.createElement('br', null)
                 )
               ),
@@ -704,15 +736,15 @@ var HomePage = function (_Component) {
                   _react2.default.createElement(
                     'a',
                     { href: 'http://nric.nebraska.edu/', target: '_blank' },
-                    'Symposium on Biomechanics'
+                    'Symposium on Biomechanics,'
                   ),
-                  ', ',
+                  ' ',
                   _react2.default.createElement(
                     'a',
                     { href: 'http://www.unomaha.edu/', target: '_blank' },
-                    'University of Nebraska at Omaha'
+                    'University of Nebraska at Omaha,'
                   ),
-                  ', Omaha, NE ',
+                  ' Omaha, NE ',
                   _react2.default.createElement('br', null)
                 ),
                 _react2.default.createElement(
@@ -742,9 +774,9 @@ var HomePage = function (_Component) {
                   _react2.default.createElement(
                     'a',
                     { href: 'http://asb2016.asbweb.org/', target: '_blank' },
-                    ' 40th Annual Meeting of the American Society of Biomechanics'
+                    ' 40th Annual Meeting of the American Society of Biomechanics,'
                   ),
-                  ', Raleigh, NC'
+                  ' Raleigh, NC'
                 ),
                 _react2.default.createElement(
                   'p',
@@ -778,9 +810,9 @@ var HomePage = function (_Component) {
                   _react2.default.createElement(
                     'a',
                     { href: 'http://www.unomaha.edu/college-of-education/cobre/community-engagement/research-day.php', target: '_blank' },
-                    ' Human Movement Variability Conference'
+                    ' Human Movement Variability Conference,'
                   ),
-                  ', Omaha, NE'
+                  ' Omaha, NE'
                 )
               ),
               _react2.default.createElement(
@@ -800,9 +832,9 @@ var HomePage = function (_Component) {
                   _react2.default.createElement(
                     'a',
                     { href: 'https://sites.google.com/site/asbrockymountain/home', target: '_blank' },
-                    ' 6th Annual Meeting of the Rocky Mountain American Society of Biomechanics'
+                    ' 6th Annual Meeting of the Rocky Mountain American Society of Biomechanics,'
                   ),
-                  ', Estes Park, CO'
+                  ' Estes Park, CO'
                 ),
                 _react2.default.createElement(
                   'p',
@@ -836,15 +868,15 @@ var HomePage = function (_Component) {
                   _react2.default.createElement(
                     'a',
                     { href: 'http://www.unomaha.edu/office-of-research-and-creative-activity/students/research-and-creative-activity-fair.php', target: '_blank' },
-                    ' Research and Creative Activity Fair'
+                    ' Research and Creative Activity Fair,'
                   ),
-                  ', ',
+                  ' ',
                   _react2.default.createElement(
                     'a',
                     { href: 'http://www.unomaha.edu/', target: '_blank' },
-                    ' University of Nebraska at Omaha'
+                    ' University of Nebraska at Omaha,'
                   ),
-                  ', Omaha, NE'
+                  ' Omaha, NE'
                 )
               ),
               _react2.default.createElement(
@@ -864,15 +896,15 @@ var HomePage = function (_Component) {
                   _react2.default.createElement(
                     'a',
                     { href: 'http://www.unomaha.edu/college-of-education/health-physical-education-recreation/community-engagement/seminar-series/index.php', target: '_blank' },
-                    ' School of HPER Seminar Series'
+                    ' School of HPER Seminar Series,'
                   ),
-                  ', ',
+                  ' ',
                   _react2.default.createElement(
                     'a',
                     { href: 'http://www.unomaha.edu/', target: '_blank' },
-                    ' University of Nebraska at Omaha'
+                    ' University of Nebraska at Omaha,'
                   ),
-                  ', Omaha, NE'
+                  ' Omaha, NE'
                 )
               )
             )
@@ -2187,7 +2219,7 @@ exports = module.exports = __webpack_require__(31)(false);
 
 
 // module
-exports.push([module.i, "img {\n  max-width: 100%; }\n\nh1, h2, h3, h4, h5 {\n  font-family: eurostile; }\n\nh4 {\n  font-size: 30px; }\n\nbody {\n  font-family: fira-sans;\n  margin: 0; }\n\n.wf-active {\n  opacity: 1;\n  transition: 0.25s ease-in; }\n\n@font-face {\n  font-family: 'icomoon';\n  src: url(\"/fonts/icomoon.eot?7ogda3\");\n  src: url(\"/fonts/icomoon.eot?7ogda3#iefix\") format(\"embedded-opentype\"), url(\"/fonts/icomoon.ttf?7ogda3\") format(\"truetype\"), url(\"/fonts/icomoon.woff?7ogda3\") format(\"woff\"), url(\"/fonts/icomoon.svg?7ogda3#icomoon\") format(\"svg\");\n  font-weight: normal;\n  font-style: normal; }\n\n[class^=\"icon-\"], [class*=\" icon-\"] {\n  /* use !important to prevent issues with browser extensions that change fonts */\n  font-family: 'icomoon' !important;\n  speak: none;\n  font-style: normal;\n  font-weight: normal;\n  font-variant: normal;\n  text-transform: none;\n  line-height: 1;\n  /* Better Font Rendering =========== */\n  -webkit-font-smoothing: antialiased;\n  -moz-osx-font-smoothing: grayscale; }\n\n.icon-instagram:before {\n  content: \"\\EA92\"; }\n\n.icon-spotify:before {\n  content: \"\\EA94\"; }\n\n.icon-twitter:before {\n  content: \"\\EA96\"; }\n\n.icon-github:before {\n  content: \"\\EAB0\"; }\n\n.icon-linkedin2:before {\n  content: \"\\EACA\"; }\n\na {\n  color: black;\n  font-weight: bold;\n  text-decoration: none;\n  position: relative;\n  display: inline-block; }\n  a:before {\n    content: \"\";\n    position: absolute;\n    left: 50%;\n    right: 50%;\n    bottom: 0;\n    background: black;\n    height: 2px;\n    transition-property: left, right;\n    transition-duration: 0.3s;\n    transition-timing-function: ease-out; }\n  a:hover:before {\n    left: 0;\n    right: 0; }\n\n* {\n  box-sizing: border-box; }\n\n.crossline {\n  fill: none;\n  stroke: #000000;\n  stroke-width: 5;\n  stroke-linecap: round;\n  stroke-miterlimit: 10; }\n\n.home_wrapper {\n  width: 800px;\n  max-width: 100%;\n  margin: auto;\n  text-align: center;\n  padding: 15px; }\n\n.big_name {\n  font-size: 80px;\n  margin: 0; }\n\n.subheader {\n  font-family: fira-sans;\n  font-weight: 300;\n  font-size: 35px;\n  margin: 0; }\n\n.face {\n  margin: 50px 0;\n  width: 550px;\n  max-width: 100%; }\n\n.main_logo_finished .r, .main_logo_finished .c {\n  transition: 0.15s ease-out; }\n\n.chase_logo {\n  width: 150px;\n  margin: auto;\n  margin-top: 100px;\n  overflow: visible; }\n  .chase_logo .r {\n    fill: #666666;\n    stroke-width: 1;\n    stroke: #666666; }\n  .chase_logo .c {\n    fill: #231f20;\n    stroke-width: 1;\n    stroke: #231F21; }\n  .chase_logo:hover .r {\n    transform: translateX(38px) !important; }\n  .chase_logo:hover .c {\n    transform: translateX(-38px) !important; }\n\n.bio_wrapper {\n  background: black;\n  color: white;\n  padding: 75px 15px; }\n\n.research_wrapper {\n  padding: 75px 15px; }\n\n.wrapper {\n  max-width: 1000px;\n  margin: auto; }\n\n.wrapper h3 {\n  text-transform: uppercase;\n  font-size: 50px; }\n\n.presentation {\n  line-height: 1.7;\n  margin: 0 0 30px;\n  background: #eee;\n  padding: 15px 15px 20px; }\n\n.presentation_button {\n  background: black;\n  color: white;\n  margin-right: 15px;\n  padding: 5px 15px;\n  transition: 0.15s ease-out;\n  float: left;\n  text-transform: uppercase; }\n  .presentation_button:hover {\n    background: #666; }\n\n.cv_button {\n  background: white;\n  display: inline-block;\n  width: 100%;\n  text-align: center;\n  text-transform: uppercase;\n  font-size: 25px;\n  margin: 0;\n  line-height: 1;\n  transition: 0.15s ease-out;\n  padding: 15px;\n  margin-top: 25px; }\n  .cv_button h4 {\n    margin: 0; }\n  .cv_button:hover {\n    background: #ccc; }\n\n.poster_image {\n  box-shadow: 5px 5px 25px #afafaf;\n  display: table;\n  margin: 25px auto;\n  width: 300px;\n  transition: 0.15s ease-out; }\n  .poster_image img {\n    display: block;\n    width: 100%; }\n  .poster_image:hover {\n    transform: translateY(-15px);\n    box-shadow: 0 15px 24px rgba(0, 0, 0, 0.22), 0 19px 76px rgba(0, 0, 0, 0.3); }\n\n.asb_heading {\n  margin-bottom: 0; }\n\n.asb_content {\n  margin-top: 0;\n  color: #666; }\n\n.center {\n  text-align: center; }\n\n@media screen and (max-width: 505px) {\n  .chase_logo {\n    width: 125px; }\n  .big_name {\n    font-size: 30px; }\n  .subheader {\n    font-size: 25px; } }\n\n.nav_link {\n  font-weight: bold;\n  text-decoration: none;\n  font-weight: 300;\n  padding: 5px 15px;\n  cursor: pointer; }\n  .scrolled .nav_link {\n    color: white; }\n    .scrolled .nav_link:before {\n      background: white; }\n  .nav_link.active:before {\n    background: white;\n    left: 0;\n    right: 0; }\n\nnav {\n  text-align: center;\n  width: 100%;\n  padding: 30px 15px;\n  transition: 0.15s ease-out; }\n  .scrolled nav {\n    padding: 15px; }\n\n.row {\n  padding: 40px; }\n\n.title {\n  color: #fff;\n  text-decoration: none; }\n\n.header {\n  display: flex;\n  position: fixed;\n  width: 100%;\n  z-index: 10;\n  transition: 0.15s ease-out; }\n\n.scrolled .header {\n  background: black; }\n\n@media screen and (max-width: 1024px) {\n  .row {\n    padding: 0 16px; } }\n\nfooter {\n  background: white;\n  padding: 15px;\n  text-align: center;\n  color: #231f20;\n  font-weight: 900;\n  padding-top: 60px;\n  padding-bottom: 120px;\n  display: flex;\n  justify-content: center;\n  flex-direction: column; }\n  footer .subheading, footer .subheading, footer .subheading span {\n    font-size: 20px;\n    font-family: 'Goudy';\n    font-style: italic; }\n  footer .highlight {\n    color: white; }\n  footer .heading {\n    color: white;\n    font-size: 70px;\n    line-height: 1.5;\n    margin: 0;\n    text-transform: capitalize; }\n  footer .copy_button {\n    cursor: pointer;\n    position: relative;\n    margin: 0; }\n    footer .copy_button span {\n      font-size: 30px; }\n    footer .copy_button .copy_status {\n      opacity: 0;\n      display: inline-block;\n      position: absolute;\n      top: 50%;\n      transition: 0.25s ease-out;\n      background: white;\n      padding: 0 15px;\n      color: black;\n      bottom: 20px;\n      height: 16px;\n      font-size: 14px;\n      transform: translateY(-50%); }\n      footer .copy_button .copy_status.copied {\n        opacity: 1;\n        transform: translateX(30px) translateY(-50%); }\n    footer .copy_button:hover .copy_status {\n      opacity: 1;\n      transform: translateX(30px) translateY(-50%); }\n  footer .social .social_icon {\n    display: inline-block;\n    vertical-align: middle;\n    margin: 25px;\n    font-size: 50px;\n    color: #afafaf;\n    transition: 0.15s ease-out;\n    position: relative;\n    width: 50px;\n    height: 50px; }\n    footer .social .social_icon:before {\n      background: transparent;\n      left: 0;\n      top: 0;\n      bottom: unset;\n      right: unset; }\n    footer .social .social_icon:hover {\n      color: #84bd00;\n      text-decoration: none; }\n\n.signature {\n  width: 250px;\n  margin: auto;\n  display: table; }\n", ""]);
+exports.push([module.i, "img {\n  max-width: 100%; }\n\nh1, h2, h3, h4, h5 {\n  font-family: eurostile; }\n\nh4 {\n  font-size: 30px; }\n\nbody {\n  font-family: fira-sans;\n  margin: 0; }\n\n.wf-active {\n  opacity: 1;\n  transition: 0.25s ease-in; }\n\n@font-face {\n  font-family: 'icomoon';\n  src: url(\"/fonts/icomoon.eot?7ogda3\");\n  src: url(\"/fonts/icomoon.eot?7ogda3#iefix\") format(\"embedded-opentype\"), url(\"/fonts/icomoon.ttf?7ogda3\") format(\"truetype\"), url(\"/fonts/icomoon.woff?7ogda3\") format(\"woff\"), url(\"/fonts/icomoon.svg?7ogda3#icomoon\") format(\"svg\");\n  font-weight: normal;\n  font-style: normal; }\n\n[class^=\"icon-\"], [class*=\" icon-\"] {\n  /* use !important to prevent issues with browser extensions that change fonts */\n  font-family: 'icomoon' !important;\n  speak: none;\n  font-style: normal;\n  font-weight: normal;\n  font-variant: normal;\n  text-transform: none;\n  line-height: 1;\n  /* Better Font Rendering =========== */\n  -webkit-font-smoothing: antialiased;\n  -moz-osx-font-smoothing: grayscale; }\n\n.icon-instagram:before {\n  content: \"\\EA92\"; }\n\n.icon-spotify:before {\n  content: \"\\EA94\"; }\n\n.icon-twitter:before {\n  content: \"\\EA96\"; }\n\n.icon-github:before {\n  content: \"\\EAB0\"; }\n\n.icon-linkedin2:before {\n  content: \"\\EACA\"; }\n\na {\n  color: black;\n  font-weight: bold;\n  text-decoration: none;\n  position: relative;\n  display: inline-block; }\n  a:before {\n    content: \"\";\n    position: absolute;\n    left: 50%;\n    right: 50%;\n    bottom: 0;\n    background: black;\n    height: 2px;\n    transition-property: left, right;\n    transition-duration: 0.3s;\n    transition-timing-function: ease-out; }\n  a:hover:before {\n    left: 0;\n    right: 0; }\n\n* {\n  box-sizing: border-box; }\n\n.crossline {\n  fill: none;\n  stroke: #000000;\n  stroke-width: 5;\n  stroke-linecap: round;\n  stroke-miterlimit: 10; }\n\n.home_wrapper {\n  width: 800px;\n  max-width: 100%;\n  margin: auto;\n  text-align: center;\n  padding: 15px; }\n\n.big_name {\n  font-size: 80px;\n  margin: 0; }\n\n.subheader {\n  font-family: fira-sans;\n  font-weight: 300;\n  font-size: 35px;\n  margin: 0; }\n  .subheader.smaller {\n    font-size: 26px; }\n\n.face {\n  margin: 50px 0;\n  width: 550px;\n  max-width: 100%; }\n\n.main_logo_finished .r, .main_logo_finished .c {\n  transition: 0.15s ease-out; }\n\n.chase_logo {\n  width: 150px;\n  margin: auto;\n  margin-top: 100px;\n  overflow: visible; }\n  .chase_logo .r {\n    fill: #666666;\n    stroke-width: 1;\n    stroke: #666666; }\n  .chase_logo .c {\n    fill: #231f20;\n    stroke-width: 1;\n    stroke: #231F21; }\n  .chase_logo:hover .r {\n    transform: translateX(38px) !important; }\n  .chase_logo:hover .c {\n    transform: translateX(-38px) !important; }\n\n.bio_wrapper {\n  background: black;\n  color: white;\n  padding: 75px 15px; }\n\n.research_wrapper {\n  padding: 75px 15px; }\n\n.wrapper {\n  max-width: 1000px;\n  margin: auto; }\n\n.wrapper h3 {\n  text-transform: uppercase;\n  font-size: 50px; }\n\n.presentation {\n  line-height: 1.7;\n  margin: 0 0 30px;\n  background: #eee;\n  padding: 15px 15px 20px; }\n\n.presentation_button {\n  background: black;\n  color: white;\n  margin-right: 15px;\n  padding: 5px 15px;\n  transition: 0.15s ease-out;\n  float: left;\n  text-transform: uppercase; }\n  .presentation_button:hover {\n    background: #666; }\n\n.cv_button {\n  background: white;\n  display: inline-block;\n  width: 100%;\n  text-align: center;\n  text-transform: uppercase;\n  font-size: 25px;\n  margin: 0;\n  line-height: 1;\n  transition: 0.15s ease-out;\n  padding: 15px;\n  margin-top: 25px; }\n  .cv_button h4 {\n    margin: 0; }\n  .cv_button:hover {\n    background: #ccc; }\n\n.poster_image {\n  box-shadow: 5px 5px 25px #afafaf;\n  display: table;\n  margin: 25px auto;\n  width: 300px;\n  transition: 0.15s ease-out; }\n  .poster_image img {\n    display: block;\n    width: 100%; }\n  .poster_image:hover {\n    transform: translateY(-15px);\n    box-shadow: 0 15px 24px rgba(0, 0, 0, 0.22), 0 19px 76px rgba(0, 0, 0, 0.3); }\n\n.asb_heading {\n  margin-bottom: 0; }\n\n.asb_content {\n  margin-top: 0;\n  color: #666; }\n\n.center {\n  text-align: center; }\n\n@media screen and (max-width: 505px) {\n  .chase_logo {\n    width: 125px; }\n  .big_name {\n    font-size: 30px; }\n  .subheader {\n    font-size: 25px; }\n    .subheader.smaller {\n      font-size: 20px; } }\n\n.nav_link {\n  font-weight: bold;\n  text-decoration: none;\n  font-weight: 300;\n  padding: 5px 15px;\n  cursor: pointer; }\n  .scrolled .nav_link {\n    color: white; }\n    .scrolled .nav_link:before {\n      background: white; }\n  .nav_link.active:before {\n    background: white;\n    left: 0;\n    right: 0; }\n\nnav {\n  text-align: center;\n  width: 100%;\n  padding: 30px 15px;\n  transition: 0.15s ease-out; }\n  .scrolled nav {\n    padding: 15px; }\n\n.row {\n  padding: 40px; }\n\n.title {\n  color: #fff;\n  text-decoration: none; }\n\n.header {\n  display: flex;\n  position: fixed;\n  width: 100%;\n  z-index: 10;\n  transition: 0.15s ease-out; }\n\n.scrolled .header {\n  background: black; }\n\n@media screen and (max-width: 1024px) {\n  .row {\n    padding: 0 16px; } }\n\nfooter {\n  background: white;\n  padding: 15px;\n  text-align: center;\n  color: #231f20;\n  font-weight: 900;\n  padding-top: 60px;\n  padding-bottom: 120px;\n  display: flex;\n  justify-content: center;\n  flex-direction: column; }\n  footer .subheading, footer .subheading, footer .subheading span {\n    font-size: 20px;\n    font-family: 'Goudy';\n    font-style: italic; }\n  footer .highlight {\n    color: white; }\n  footer .heading {\n    color: white;\n    font-size: 70px;\n    line-height: 1.5;\n    margin: 0;\n    text-transform: capitalize; }\n  footer .copy_button {\n    cursor: pointer;\n    position: relative;\n    margin: 0; }\n    footer .copy_button span {\n      font-size: 30px; }\n    footer .copy_button .copy_status {\n      opacity: 0;\n      display: inline-block;\n      position: absolute;\n      top: 50%;\n      transition: 0.25s ease-out;\n      background: white;\n      padding: 0 15px;\n      color: black;\n      bottom: 20px;\n      height: 16px;\n      font-size: 14px;\n      transform: translateY(-50%); }\n      footer .copy_button .copy_status.copied {\n        opacity: 1;\n        transform: translateX(30px) translateY(-50%); }\n    footer .copy_button:hover .copy_status {\n      opacity: 1;\n      transform: translateX(30px) translateY(-50%); }\n  footer .social .social_icon {\n    display: inline-block;\n    vertical-align: middle;\n    margin: 25px;\n    font-size: 50px;\n    color: #afafaf;\n    transition: 0.15s ease-out;\n    position: relative;\n    width: 50px;\n    height: 50px; }\n    footer .social .social_icon:before {\n      background: transparent;\n      left: 0;\n      top: 0;\n      bottom: unset;\n      right: unset; }\n    footer .social .social_icon:hover {\n      color: #84bd00;\n      text-decoration: none; }\n\n.signature {\n  width: 250px;\n  margin: auto;\n  display: table; }\n", ""]);
 
 // exports
 
@@ -2277,4 +2309,4 @@ function toComment(sourceMap) {
 /***/ })
 /******/ ]);
 });
-//# sourceMappingURL=static.b9eaeb80.js.map
+//# sourceMappingURL=static.ea48f7ec.js.map
