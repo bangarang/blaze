@@ -605,11 +605,6 @@ var HomePage = function (_Component) {
                 'Research'
               ),
               _react2.default.createElement(
-                'p',
-                null,
-                'Chase aims to answer research questions related to neuromuscular control. For example, his Master\u2019s thesis project aims to detect how changes in energy expenditure at different walking speeds might be related to the variability of a person\u2019s walking pattern. This project will provide insight to how humans optimize their walking strategy, as well as how people differ in this optimization.'
-              ),
-              _react2.default.createElement(
                 'h4',
                 null,
                 'Presentations'
@@ -2320,4 +2315,4 @@ function toComment(sourceMap) {
 /***/ })
 /******/ ]);
 });
-//# sourceMappingURL=static.85a86ffa.js.map
+//# sourceMappingURL=static.70864a28.js.map
