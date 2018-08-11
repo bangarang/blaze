@@ -67,7 +67,7 @@ return /******/ (function(modules) { // webpackBootstrap
 /******/ 	__webpack_require__.o = function(object, property) { return Object.prototype.hasOwnProperty.call(object, property); };
 /******/
 /******/ 	// __webpack_public_path__
-/******/ 	__webpack_require__.p = "/";
+/******/ 	__webpack_require__.p = "https://www.chasegrock.com/";
 /******/
 /******/ 	// Load entry module and return exports
 /******/ 	return __webpack_require__(__webpack_require__.s = 10);
@@ -605,11 +605,6 @@ var HomePage = function (_Component) {
                 'Research'
               ),
               _react2.default.createElement(
-                'p',
-                null,
-                'Chase aims to answer research questions related to neuromuscular control. For example, his Master\u2019s thesis project aims to detect how changes in energy expenditure at different walking speeds might be related to the variability of a person\u2019s walking pattern. This project will provide insight to how humans optimize their walking strategy, as well as how people differ in this optimization.'
-              ),
-              _react2.default.createElement(
                 'h4',
                 null,
                 'Presentations'
@@ -1060,6 +1055,17 @@ var App = function App() {
     _react2.default.createElement(
       'div',
       null,
+      _react2.default.createElement(
+        _reactStatic.Head,
+        null,
+        _react2.default.createElement('meta', { charSet: 'UTF-8' }),
+        _react2.default.createElement(
+          'title',
+          null,
+          'Chase G Rock'
+        ),
+        _react2.default.createElement('link', { rel: 'shortcut icon', href: 'favicon.png' })
+      ),
       _react2.default.createElement(_header2.default, null),
       _react2.default.createElement(
         'div',
@@ -2309,4 +2315,4 @@ function toComment(sourceMap) {
 /***/ })
 /******/ ]);
 });
-//# sourceMappingURL=static.ea48f7ec.js.map
+//# sourceMappingURL=static.70864a28.js.map

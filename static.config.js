@@ -1,12 +1,11 @@
-import axios from 'axios'
 import ExtractTextPlugin from 'extract-text-webpack-plugin'
 
 export default {
+  siteRoot: 'https://www.chasegrock.com',
   getSiteData: () => ({
-    title: 'React Static',
+    title: 'Chase G Rock',
   }),
   getRoutes: async () => {
-    const { data: posts } = await axios.get('https://jsonplaceholder.typicode.com/posts')
     return [
       {
         path: '/',

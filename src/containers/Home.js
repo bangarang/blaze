@@ -270,8 +270,7 @@ class HomePage extends Component {
           <div className={'research_wrapper'}>
             <div className={'wrapper'}>
               <h3 className={'research_heading'}>Research</h3>
-              <p>Chase aims to answer research questions related to neuromuscular control. For example, his Master’s thesis project aims to detect how changes in energy expenditure at different walking speeds might be related to the variability of a person’s walking pattern. This project will provide insight to how humans optimize their walking strategy, as well as how people differ in this optimization.</p>
-
+              
               <h4>Presentations</h4>
 
               <div className={'presentation'}>

@@ -1,5 +1,5 @@
 import React from 'react'
-import { Router, Link } from 'react-static'
+import { Router, Link, Head } from 'react-static'
 import { hot } from 'react-hot-loader'
 //
 import Routes from 'react-static-routes'
@@ -12,6 +12,11 @@ import './app.scss'
 const App = () => (
   <Router>
     <div>
+      <Head>
+        <meta charSet="UTF-8" />
+        <title>Chase G Rock</title>
+        <link rel="shortcut icon" href="favicon.png" />
+      </Head>
       <Header />
       <div className="content">
         <Routes />
