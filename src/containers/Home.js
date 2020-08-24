@@ -173,7 +173,7 @@ class HomePage extends Component {
                             transform: `translateY(${name_style.x}px)`,
                             opacity: name_style.opacity
                           }}
-                      className={'big_name'}>CHASE ROCK</h1>
+                      className={'big_name'}>CHASE G ROCK</h1>
                   )
                 }}
               </Motion>
