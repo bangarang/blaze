@@ -32,6 +32,8 @@ class HomePage extends Component {
     var self = this;
     var pathname =location.pathname.split('/')[1];
 
+    console.log('Chase G Rock');
+
     self.setState({pathname: location.pathname.split('/')[1]})
     setTimeout(function() {
       console.log("logo");
