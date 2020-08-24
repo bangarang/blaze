@@ -177,7 +177,7 @@ class HomePage extends Component {
                   )
                 }}
               </Motion>
-              : <h1 style={{ opacity: 0 }} className={'big_name'}>CHASE ROCK</h1>
+              : <h1 style={{ opacity: 0 }} className={'big_name'}>CHASE G ROCK</h1>
             }
 
             { biomechanics ?
