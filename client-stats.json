@@ -3,7 +3,7 @@
   "warnings": [],
   "version": "3.12.0",
   "hash": "38ed2d38c0fbf7d5dc41",
-  "time": 9037,
+  "time": 7913,
   "publicPath": "https://www.chasegrock.com/",
   "assetsByChunkName": {
     "src/containers/Home": [
