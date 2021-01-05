@@ -2,8 +2,8 @@
   "errors": [],
   "warnings": [],
   "version": "3.12.0",
-  "hash": "1be382d79d82d0dd77c5",
-  "time": 8006,
+  "hash": "5669545934b2cf5b6570",
+  "time": 7747,
   "publicPath": "https://www.chasegrock.com/",
   "assetsByChunkName": {
     "src/containers/Home": [
@@ -15,10 +15,10 @@
       "templates/src/containers/404.1ce71833.js.map"
     ],
     "main": [
-      "main.0388ae0a.js",
-      "styles.1be382d7.css",
-      "main.0388ae0a.js.map",
-      "styles.1be382d7.css.map"
+      "main.89cbcde0.js",
+      "styles.56695459.css",
+      "main.89cbcde0.js.map",
+      "styles.56695459.css.map"
     ],
     "bootstrap": [
       "bootstrap.de42d32a.js",
@@ -56,7 +56,7 @@
       "emitted": true
     },
     {
-      "name": "main.0388ae0a.js",
+      "name": "main.89cbcde0.js",
       "size": 335477,
       "chunks": [
         2
@@ -79,7 +79,7 @@
       "emitted": true
     },
     {
-      "name": "styles.1be382d7.css",
+      "name": "styles.56695459.css",
       "size": 5022,
       "chunks": [
         2
@@ -112,8 +112,8 @@
       "emitted": true
     },
     {
-      "name": "main.0388ae0a.js.map",
-      "size": 1817858,
+      "name": "main.89cbcde0.js.map",
+      "size": 1815808,
       "chunks": [
         2
       ],
@@ -123,7 +123,7 @@
       "emitted": true
     },
     {
-      "name": "styles.1be382d7.css.map",
+      "name": "styles.56695459.css.map",
       "size": 96,
       "chunks": [
         2
@@ -155,10 +155,10 @@
       "assets": [
         "bootstrap.de42d32a.js",
         "bootstrap.de42d32a.js.map",
-        "main.0388ae0a.js",
-        "styles.1be382d7.css",
-        "main.0388ae0a.js.map",
-        "styles.1be382d7.css.map"
+        "main.89cbcde0.js",
+        "styles.56695459.css",
+        "main.89cbcde0.js.map",
+        "styles.56695459.css.map"
       ],
       "isOverSizeLimit": true
     }
@@ -977,12 +977,12 @@
         "main"
       ],
       "files": [
-        "main.0388ae0a.js",
-        "styles.1be382d7.css",
-        "main.0388ae0a.js.map",
-        "styles.1be382d7.css.map"
+        "main.89cbcde0.js",
+        "styles.56695459.css",
+        "main.89cbcde0.js.map",
+        "styles.56695459.css.map"
       ],
-      "hash": "0388ae0a9f986a08dead",
+      "hash": "89cbcde089232cb7c967",
       "parents": [
         3
       ],
@@ -1776,8 +1776,8 @@
         },
         {
           "id": 2,
-          "identifier": "/home/runner/work/blaze/blaze/node_modules/axios/lib/utils.js",
-          "name": "./node_modules/axios/lib/utils.js",
+          "identifier": "/home/runner/work/blaze/blaze/node_modules/react-static/node_modules/axios/lib/utils.js",
+          "name": "./node_modules/react-static/node_modules/axios/lib/utils.js",
           "index": 65,
           "index2": 60,
           "size": 7558,
@@ -1789,117 +1789,117 @@
             2
           ],
           "assets": [],
-          "issuer": "/home/runner/work/blaze/blaze/node_modules/axios/lib/axios.js",
+          "issuer": "/home/runner/work/blaze/blaze/node_modules/react-static/node_modules/axios/lib/axios.js",
           "issuerId": 95,
-          "issuerName": "./node_modules/axios/lib/axios.js",
+          "issuerName": "./node_modules/react-static/node_modules/axios/lib/axios.js",
           "failed": false,
           "errors": 0,
           "warnings": 0,
           "reasons": [
             {
               "moduleId": 20,
-              "moduleIdentifier": "/home/runner/work/blaze/blaze/node_modules/axios/lib/defaults.js",
-              "module": "./node_modules/axios/lib/defaults.js",
-              "moduleName": "./node_modules/axios/lib/defaults.js",
+              "moduleIdentifier": "/home/runner/work/blaze/blaze/node_modules/react-static/node_modules/axios/lib/defaults.js",
+              "module": "./node_modules/react-static/node_modules/axios/lib/defaults.js",
+              "moduleName": "./node_modules/react-static/node_modules/axios/lib/defaults.js",
               "type": "cjs require",
               "userRequest": "./utils",
               "loc": "3:12-30"
             },
             {
               "moduleId": 44,
-              "moduleIdentifier": "/home/runner/work/blaze/blaze/node_modules/axios/lib/adapters/xhr.js",
-              "module": "./node_modules/axios/lib/adapters/xhr.js",
-              "moduleName": "./node_modules/axios/lib/adapters/xhr.js",
+              "moduleIdentifier": "/home/runner/work/blaze/blaze/node_modules/react-static/node_modules/axios/lib/adapters/xhr.js",
+              "module": "./node_modules/react-static/node_modules/axios/lib/adapters/xhr.js",
+              "moduleName": "./node_modules/react-static/node_modules/axios/lib/adapters/xhr.js",
               "type": "cjs require",
               "userRequest": "./../utils",
               "loc": "3:12-33"
             },
             {
               "moduleId": 95,
-              "moduleIdentifier": "/home/runner/work/blaze/blaze/node_modules/axios/lib/axios.js",
-              "module": "./node_modules/axios/lib/axios.js",
-              "moduleName": "./node_modules/axios/lib/axios.js",
+              "moduleIdentifier": "/home/runner/work/blaze/blaze/node_modules/react-static/node_modules/axios/lib/axios.js",
+              "module": "./node_modules/react-static/node_modules/axios/lib/axios.js",
+              "moduleName": "./node_modules/react-static/node_modules/axios/lib/axios.js",
               "type": "cjs require",
               "userRequest": "./utils",
               "loc": "3:12-30"
             },
             {
               "moduleId": 97,
-              "moduleIdentifier": "/home/runner/work/blaze/blaze/node_modules/axios/lib/core/Axios.js",
-              "module": "./node_modules/axios/lib/core/Axios.js",
-              "moduleName": "./node_modules/axios/lib/core/Axios.js",
+              "moduleIdentifier": "/home/runner/work/blaze/blaze/node_modules/react-static/node_modules/axios/lib/core/Axios.js",
+              "module": "./node_modules/react-static/node_modules/axios/lib/core/Axios.js",
+              "moduleName": "./node_modules/react-static/node_modules/axios/lib/core/Axios.js",
               "type": "cjs require",
               "userRequest": "./../utils",
               "loc": "4:12-33"
             },
             {
               "moduleId": 98,
-              "moduleIdentifier": "/home/runner/work/blaze/blaze/node_modules/axios/lib/helpers/normalizeHeaderName.js",
-              "module": "./node_modules/axios/lib/helpers/normalizeHeaderName.js",
-              "moduleName": "./node_modules/axios/lib/helpers/normalizeHeaderName.js",
+              "moduleIdentifier": "/home/runner/work/blaze/blaze/node_modules/react-static/node_modules/axios/lib/helpers/normalizeHeaderName.js",
+              "module": "./node_modules/react-static/node_modules/axios/lib/helpers/normalizeHeaderName.js",
+              "moduleName": "./node_modules/react-static/node_modules/axios/lib/helpers/normalizeHeaderName.js",
               "type": "cjs require",
               "userRequest": "../utils",
               "loc": "3:12-31"
             },
             {
               "moduleId": 101,
-              "moduleIdentifier": "/home/runner/work/blaze/blaze/node_modules/axios/lib/helpers/buildURL.js",
-              "module": "./node_modules/axios/lib/helpers/buildURL.js",
-              "moduleName": "./node_modules/axios/lib/helpers/buildURL.js",
+              "moduleIdentifier": "/home/runner/work/blaze/blaze/node_modules/react-static/node_modules/axios/lib/helpers/buildURL.js",
+              "module": "./node_modules/react-static/node_modules/axios/lib/helpers/buildURL.js",
+              "moduleName": "./node_modules/react-static/node_modules/axios/lib/helpers/buildURL.js",
               "type": "cjs require",
               "userRequest": "./../utils",
               "loc": "3:12-33"
             },
             {
               "moduleId": 102,
-              "moduleIdentifier": "/home/runner/work/blaze/blaze/node_modules/axios/lib/helpers/parseHeaders.js",
-              "module": "./node_modules/axios/lib/helpers/parseHeaders.js",
-              "moduleName": "./node_modules/axios/lib/helpers/parseHeaders.js",
+              "moduleIdentifier": "/home/runner/work/blaze/blaze/node_modules/react-static/node_modules/axios/lib/helpers/parseHeaders.js",
+              "module": "./node_modules/react-static/node_modules/axios/lib/helpers/parseHeaders.js",
+              "moduleName": "./node_modules/react-static/node_modules/axios/lib/helpers/parseHeaders.js",
               "type": "cjs require",
               "userRequest": "./../utils",
               "loc": "3:12-33"
             },
             {
               "moduleId": 103,
-              "moduleIdentifier": "/home/runner/work/blaze/blaze/node_modules/axios/lib/helpers/isURLSameOrigin.js",
-              "module": "./node_modules/axios/lib/helpers/isURLSameOrigin.js",
-              "moduleName": "./node_modules/axios/lib/helpers/isURLSameOrigin.js",
+              "moduleIdentifier": "/home/runner/work/blaze/blaze/node_modules/react-static/node_modules/axios/lib/helpers/isURLSameOrigin.js",
+              "module": "./node_modules/react-static/node_modules/axios/lib/helpers/isURLSameOrigin.js",
+              "moduleName": "./node_modules/react-static/node_modules/axios/lib/helpers/isURLSameOrigin.js",
               "type": "cjs require",
               "userRequest": "./../utils",
               "loc": "3:12-33"
             },
             {
               "moduleId": 105,
-              "moduleIdentifier": "/home/runner/work/blaze/blaze/node_modules/axios/lib/helpers/cookies.js",
-              "module": "./node_modules/axios/lib/helpers/cookies.js",
-              "moduleName": "./node_modules/axios/lib/helpers/cookies.js",
+              "moduleIdentifier": "/home/runner/work/blaze/blaze/node_modules/react-static/node_modules/axios/lib/helpers/cookies.js",
+              "module": "./node_modules/react-static/node_modules/axios/lib/helpers/cookies.js",
+              "moduleName": "./node_modules/react-static/node_modules/axios/lib/helpers/cookies.js",
               "type": "cjs require",
               "userRequest": "./../utils",
               "loc": "3:12-33"
             },
             {
               "moduleId": 106,
-              "moduleIdentifier": "/home/runner/work/blaze/blaze/node_modules/axios/lib/core/InterceptorManager.js",
-              "module": "./node_modules/axios/lib/core/InterceptorManager.js",
-              "moduleName": "./node_modules/axios/lib/core/InterceptorManager.js",
+              "moduleIdentifier": "/home/runner/work/blaze/blaze/node_modules/react-static/node_modules/axios/lib/core/InterceptorManager.js",
+              "module": "./node_modules/react-static/node_modules/axios/lib/core/InterceptorManager.js",
+              "moduleName": "./node_modules/react-static/node_modules/axios/lib/core/InterceptorManager.js",
               "type": "cjs require",
               "userRequest": "./../utils",
               "loc": "3:12-33"
             },
             {
               "moduleId": 107,
-              "moduleIdentifier": "/home/runner/work/blaze/blaze/node_modules/axios/lib/core/dispatchRequest.js",
-              "module": "./node_modules/axios/lib/core/dispatchRequest.js",
-              "moduleName": "./node_modules/axios/lib/core/dispatchRequest.js",
+              "moduleIdentifier": "/home/runner/work/blaze/blaze/node_modules/react-static/node_modules/axios/lib/core/dispatchRequest.js",
+              "module": "./node_modules/react-static/node_modules/axios/lib/core/dispatchRequest.js",
+              "moduleName": "./node_modules/react-static/node_modules/axios/lib/core/dispatchRequest.js",
               "type": "cjs require",
               "userRequest": "./../utils",
               "loc": "3:12-33"
             },
             {
               "moduleId": 108,
-              "moduleIdentifier": "/home/runner/work/blaze/blaze/node_modules/axios/lib/core/transformData.js",
-              "module": "./node_modules/axios/lib/core/transformData.js",
-              "moduleName": "./node_modules/axios/lib/core/transformData.js",
+              "moduleIdentifier": "/home/runner/work/blaze/blaze/node_modules/react-static/node_modules/axios/lib/core/transformData.js",
+              "module": "./node_modules/react-static/node_modules/axios/lib/core/transformData.js",
+              "moduleName": "./node_modules/react-static/node_modules/axios/lib/core/transformData.js",
               "type": "cjs require",
               "userRequest": "./../utils",
               "loc": "3:12-33"
@@ -2723,12 +2723,12 @@
             },
             {
               "moduleId": 20,
-              "moduleIdentifier": "/home/runner/work/blaze/blaze/node_modules/axios/lib/defaults.js",
-              "module": "./node_modules/axios/lib/defaults.js",
-              "moduleName": "./node_modules/axios/lib/defaults.js",
+              "moduleIdentifier": "/home/runner/work/blaze/blaze/node_modules/react-static/node_modules/axios/lib/defaults.js",
+              "module": "./node_modules/react-static/node_modules/axios/lib/defaults.js",
+              "moduleName": "./node_modules/react-static/node_modules/axios/lib/defaults.js",
               "type": "cjs require",
               "userRequest": "process",
-              "loc": "1:0-37"
+              "loc": "1:0-43"
             },
             {
               "moduleId": 123,
@@ -3253,8 +3253,8 @@
         },
         {
           "id": 20,
-          "identifier": "/home/runner/work/blaze/blaze/node_modules/axios/lib/defaults.js",
-          "name": "./node_modules/axios/lib/defaults.js",
+          "identifier": "/home/runner/work/blaze/blaze/node_modules/react-static/node_modules/axios/lib/defaults.js",
+          "name": "./node_modules/react-static/node_modules/axios/lib/defaults.js",
           "index": 69,
           "index2": 71,
           "size": 2316,
@@ -3266,36 +3266,36 @@
             2
           ],
           "assets": [],
-          "issuer": "/home/runner/work/blaze/blaze/node_modules/axios/lib/axios.js",
+          "issuer": "/home/runner/work/blaze/blaze/node_modules/react-static/node_modules/axios/lib/axios.js",
           "issuerId": 95,
-          "issuerName": "./node_modules/axios/lib/axios.js",
+          "issuerName": "./node_modules/react-static/node_modules/axios/lib/axios.js",
           "failed": false,
           "errors": 0,
           "warnings": 0,
           "reasons": [
             {
               "moduleId": 95,
-              "moduleIdentifier": "/home/runner/work/blaze/blaze/node_modules/axios/lib/axios.js",
-              "module": "./node_modules/axios/lib/axios.js",
-              "moduleName": "./node_modules/axios/lib/axios.js",
+              "moduleIdentifier": "/home/runner/work/blaze/blaze/node_modules/react-static/node_modules/axios/lib/axios.js",
+              "module": "./node_modules/react-static/node_modules/axios/lib/axios.js",
+              "moduleName": "./node_modules/react-static/node_modules/axios/lib/axios.js",
               "type": "cjs require",
               "userRequest": "./defaults",
               "loc": "6:15-36"
             },
             {
               "moduleId": 97,
-              "moduleIdentifier": "/home/runner/work/blaze/blaze/node_modules/axios/lib/core/Axios.js",
-              "module": "./node_modules/axios/lib/core/Axios.js",
-              "moduleName": "./node_modules/axios/lib/core/Axios.js",
+              "moduleIdentifier": "/home/runner/work/blaze/blaze/node_modules/react-static/node_modules/axios/lib/core/Axios.js",
+              "module": "./node_modules/react-static/node_modules/axios/lib/core/Axios.js",
+              "moduleName": "./node_modules/react-static/node_modules/axios/lib/core/Axios.js",
               "type": "cjs require",
               "userRequest": "./../defaults",
               "loc": "3:15-39"
             },
             {
               "moduleId": 107,
-              "moduleIdentifier": "/home/runner/work/blaze/blaze/node_modules/axios/lib/core/dispatchRequest.js",
-              "module": "./node_modules/axios/lib/core/dispatchRequest.js",
-              "moduleName": "./node_modules/axios/lib/core/dispatchRequest.js",
+              "moduleIdentifier": "/home/runner/work/blaze/blaze/node_modules/react-static/node_modules/axios/lib/core/dispatchRequest.js",
+              "module": "./node_modules/react-static/node_modules/axios/lib/core/dispatchRequest.js",
+              "moduleName": "./node_modules/react-static/node_modules/axios/lib/core/dispatchRequest.js",
               "type": "cjs require",
               "userRequest": "../defaults",
               "loc": "6:15-37"
@@ -4421,8 +4421,8 @@
         },
         {
           "id": 42,
-          "identifier": "/home/runner/work/blaze/blaze/node_modules/axios/index.js",
-          "name": "./node_modules/axios/index.js",
+          "identifier": "/home/runner/work/blaze/blaze/node_modules/react-static/node_modules/axios/index.js",
+          "name": "./node_modules/react-static/node_modules/axios/index.js",
           "index": 63,
           "index2": 83,
           "size": 40,
@@ -4468,8 +4468,8 @@
         },
         {
           "id": 43,
-          "identifier": "/home/runner/work/blaze/blaze/node_modules/axios/lib/helpers/bind.js",
-          "name": "./node_modules/axios/lib/helpers/bind.js",
+          "identifier": "/home/runner/work/blaze/blaze/node_modules/react-static/node_modules/axios/lib/helpers/bind.js",
+          "name": "./node_modules/react-static/node_modules/axios/lib/helpers/bind.js",
           "index": 66,
           "index2": 58,
           "size": 256,
@@ -4481,27 +4481,27 @@
             2
           ],
           "assets": [],
-          "issuer": "/home/runner/work/blaze/blaze/node_modules/axios/lib/axios.js",
+          "issuer": "/home/runner/work/blaze/blaze/node_modules/react-static/node_modules/axios/lib/axios.js",
           "issuerId": 95,
-          "issuerName": "./node_modules/axios/lib/axios.js",
+          "issuerName": "./node_modules/react-static/node_modules/axios/lib/axios.js",
           "failed": false,
           "errors": 0,
           "warnings": 0,
           "reasons": [
             {
               "moduleId": 2,
-              "moduleIdentifier": "/home/runner/work/blaze/blaze/node_modules/axios/lib/utils.js",
-              "module": "./node_modules/axios/lib/utils.js",
-              "moduleName": "./node_modules/axios/lib/utils.js",
+              "moduleIdentifier": "/home/runner/work/blaze/blaze/node_modules/react-static/node_modules/axios/lib/utils.js",
+              "module": "./node_modules/react-static/node_modules/axios/lib/utils.js",
+              "moduleName": "./node_modules/react-static/node_modules/axios/lib/utils.js",
               "type": "cjs require",
               "userRequest": "./helpers/bind",
               "loc": "3:11-36"
             },
             {
               "moduleId": 95,
-              "moduleIdentifier": "/home/runner/work/blaze/blaze/node_modules/axios/lib/axios.js",
-              "module": "./node_modules/axios/lib/axios.js",
-              "moduleName": "./node_modules/axios/lib/axios.js",
+              "moduleIdentifier": "/home/runner/work/blaze/blaze/node_modules/react-static/node_modules/axios/lib/axios.js",
+              "module": "./node_modules/react-static/node_modules/axios/lib/axios.js",
+              "moduleName": "./node_modules/react-static/node_modules/axios/lib/axios.js",
               "type": "cjs require",
               "userRequest": "./helpers/bind",
               "loc": "4:11-36"
@@ -4515,8 +4515,8 @@
         },
         {
           "id": 44,
-          "identifier": "/home/runner/work/blaze/blaze/node_modules/axios/lib/adapters/xhr.js",
-          "name": "./node_modules/axios/lib/adapters/xhr.js",
+          "identifier": "/home/runner/work/blaze/blaze/node_modules/react-static/node_modules/axios/lib/adapters/xhr.js",
+          "name": "./node_modules/react-static/node_modules/axios/lib/adapters/xhr.js",
           "index": 71,
           "index2": 70,
           "size": 6175,
@@ -4528,27 +4528,27 @@
             2
           ],
           "assets": [],
-          "issuer": "/home/runner/work/blaze/blaze/node_modules/axios/lib/defaults.js",
+          "issuer": "/home/runner/work/blaze/blaze/node_modules/react-static/node_modules/axios/lib/defaults.js",
           "issuerId": 20,
-          "issuerName": "./node_modules/axios/lib/defaults.js",
+          "issuerName": "./node_modules/react-static/node_modules/axios/lib/defaults.js",
           "failed": false,
           "errors": 0,
           "warnings": 0,
           "reasons": [
             {
               "moduleId": 20,
-              "moduleIdentifier": "/home/runner/work/blaze/blaze/node_modules/axios/lib/defaults.js",
-              "module": "./node_modules/axios/lib/defaults.js",
-              "moduleName": "./node_modules/axios/lib/defaults.js",
+              "moduleIdentifier": "/home/runner/work/blaze/blaze/node_modules/react-static/node_modules/axios/lib/defaults.js",
+              "module": "./node_modules/react-static/node_modules/axios/lib/defaults.js",
+              "moduleName": "./node_modules/react-static/node_modules/axios/lib/defaults.js",
               "type": "cjs require",
               "userRequest": "./adapters/xhr",
               "loc": "20:14-39"
             },
             {
               "moduleId": 20,
-              "moduleIdentifier": "/home/runner/work/blaze/blaze/node_modules/axios/lib/defaults.js",
-              "module": "./node_modules/axios/lib/defaults.js",
-              "moduleName": "./node_modules/axios/lib/defaults.js",
+              "moduleIdentifier": "/home/runner/work/blaze/blaze/node_modules/react-static/node_modules/axios/lib/defaults.js",
+              "module": "./node_modules/react-static/node_modules/axios/lib/defaults.js",
+              "moduleName": "./node_modules/react-static/node_modules/axios/lib/defaults.js",
               "type": "cjs require",
               "userRequest": "./adapters/http",
               "loc": "23:14-40"
@@ -4562,8 +4562,8 @@
         },
         {
           "id": 45,
-          "identifier": "/home/runner/work/blaze/blaze/node_modules/axios/lib/core/createError.js",
-          "name": "./node_modules/axios/lib/core/createError.js",
+          "identifier": "/home/runner/work/blaze/blaze/node_modules/react-static/node_modules/axios/lib/core/createError.js",
+          "name": "./node_modules/react-static/node_modules/axios/lib/core/createError.js",
           "index": 73,
           "index2": 63,
           "size": 625,
@@ -4575,27 +4575,27 @@
             2
           ],
           "assets": [],
-          "issuer": "/home/runner/work/blaze/blaze/node_modules/axios/lib/adapters/xhr.js",
+          "issuer": "/home/runner/work/blaze/blaze/node_modules/react-static/node_modules/axios/lib/adapters/xhr.js",
           "issuerId": 44,
-          "issuerName": "./node_modules/axios/lib/adapters/xhr.js",
+          "issuerName": "./node_modules/react-static/node_modules/axios/lib/adapters/xhr.js",
           "failed": false,
           "errors": 0,
           "warnings": 0,
           "reasons": [
             {
               "moduleId": 44,
-              "moduleIdentifier": "/home/runner/work/blaze/blaze/node_modules/axios/lib/adapters/xhr.js",
-              "module": "./node_modules/axios/lib/adapters/xhr.js",
-              "moduleName": "./node_modules/axios/lib/adapters/xhr.js",
+              "moduleIdentifier": "/home/runner/work/blaze/blaze/node_modules/react-static/node_modules/axios/lib/adapters/xhr.js",
+              "module": "./node_modules/react-static/node_modules/axios/lib/adapters/xhr.js",
+              "moduleName": "./node_modules/react-static/node_modules/axios/lib/adapters/xhr.js",
               "type": "cjs require",
               "userRequest": "../core/createError",
               "loc": "8:18-48"
             },
             {
               "moduleId": 99,
-              "moduleIdentifier": "/home/runner/work/blaze/blaze/node_modules/axios/lib/core/settle.js",
-              "module": "./node_modules/axios/lib/core/settle.js",
-              "moduleName": "./node_modules/axios/lib/core/settle.js",
+              "moduleIdentifier": "/home/runner/work/blaze/blaze/node_modules/react-static/node_modules/axios/lib/core/settle.js",
+              "module": "./node_modules/react-static/node_modules/axios/lib/core/settle.js",
+              "moduleName": "./node_modules/react-static/node_modules/axios/lib/core/settle.js",
               "type": "cjs require",
               "userRequest": "./createError",
               "loc": "3:18-42"
@@ -4609,8 +4609,8 @@
         },
         {
           "id": 46,
-          "identifier": "/home/runner/work/blaze/blaze/node_modules/axios/lib/cancel/isCancel.js",
-          "name": "./node_modules/axios/lib/cancel/isCancel.js",
+          "identifier": "/home/runner/work/blaze/blaze/node_modules/react-static/node_modules/axios/lib/cancel/isCancel.js",
+          "name": "./node_modules/react-static/node_modules/axios/lib/cancel/isCancel.js",
           "index": 83,
           "index2": 74,
           "size": 102,
@@ -4622,27 +4622,27 @@
             2
           ],
           "assets": [],
-          "issuer": "/home/runner/work/blaze/blaze/node_modules/axios/lib/axios.js",
+          "issuer": "/home/runner/work/blaze/blaze/node_modules/react-static/node_modules/axios/lib/axios.js",
           "issuerId": 95,
-          "issuerName": "./node_modules/axios/lib/axios.js",
+          "issuerName": "./node_modules/react-static/node_modules/axios/lib/axios.js",
           "failed": false,
           "errors": 0,
           "warnings": 0,
           "reasons": [
             {
               "moduleId": 95,
-              "moduleIdentifier": "/home/runner/work/blaze/blaze/node_modules/axios/lib/axios.js",
-              "module": "./node_modules/axios/lib/axios.js",
-              "moduleName": "./node_modules/axios/lib/axios.js",
+              "moduleIdentifier": "/home/runner/work/blaze/blaze/node_modules/react-static/node_modules/axios/lib/axios.js",
+              "module": "./node_modules/react-static/node_modules/axios/lib/axios.js",
+              "moduleName": "./node_modules/react-static/node_modules/axios/lib/axios.js",
               "type": "cjs require",
               "userRequest": "./cancel/isCancel",
               "loc": "41:17-45"
             },
             {
               "moduleId": 107,
-              "moduleIdentifier": "/home/runner/work/blaze/blaze/node_modules/axios/lib/core/dispatchRequest.js",
-              "module": "./node_modules/axios/lib/core/dispatchRequest.js",
-              "moduleName": "./node_modules/axios/lib/core/dispatchRequest.js",
+              "moduleIdentifier": "/home/runner/work/blaze/blaze/node_modules/react-static/node_modules/axios/lib/core/dispatchRequest.js",
+              "module": "./node_modules/react-static/node_modules/axios/lib/core/dispatchRequest.js",
+              "moduleName": "./node_modules/react-static/node_modules/axios/lib/core/dispatchRequest.js",
               "type": "cjs require",
               "userRequest": "../cancel/isCancel",
               "loc": "5:15-44"
@@ -4656,8 +4656,8 @@
         },
         {
           "id": 47,
-          "identifier": "/home/runner/work/blaze/blaze/node_modules/axios/lib/cancel/Cancel.js",
-          "name": "./node_modules/axios/lib/cancel/Cancel.js",
+          "identifier": "/home/runner/work/blaze/blaze/node_modules/react-static/node_modules/axios/lib/cancel/Cancel.js",
+          "name": "./node_modules/react-static/node_modules/axios/lib/cancel/Cancel.js",
           "index": 86,
           "index2": 79,
           "size": 385,
@@ -4669,27 +4669,27 @@
             2
           ],
           "assets": [],
-          "issuer": "/home/runner/work/blaze/blaze/node_modules/axios/lib/axios.js",
+          "issuer": "/home/runner/work/blaze/blaze/node_modules/react-static/node_modules/axios/lib/axios.js",
           "issuerId": 95,
-          "issuerName": "./node_modules/axios/lib/axios.js",
+          "issuerName": "./node_modules/react-static/node_modules/axios/lib/axios.js",
           "failed": false,
           "errors": 0,
           "warnings": 0,
           "reasons": [
             {
               "moduleId": 95,
-              "moduleIdentifier": "/home/runner/work/blaze/blaze/node_modules/axios/lib/axios.js",
-              "module": "./node_modules/axios/lib/axios.js",
-              "moduleName": "./node_modules/axios/lib/axios.js",
+              "moduleIdentifier": "/home/runner/work/blaze/blaze/node_modules/react-static/node_modules/axios/lib/axios.js",
+              "module": "./node_modules/react-static/node_modules/axios/lib/axios.js",
+              "moduleName": "./node_modules/react-static/node_modules/axios/lib/axios.js",
               "type": "cjs require",
               "userRequest": "./cancel/Cancel",
               "loc": "39:15-41"
             },
             {
               "moduleId": 111,
-              "moduleIdentifier": "/home/runner/work/blaze/blaze/node_modules/axios/lib/cancel/CancelToken.js",
-              "module": "./node_modules/axios/lib/cancel/CancelToken.js",
-              "moduleName": "./node_modules/axios/lib/cancel/CancelToken.js",
+              "moduleIdentifier": "/home/runner/work/blaze/blaze/node_modules/react-static/node_modules/axios/lib/cancel/CancelToken.js",
+              "module": "./node_modules/react-static/node_modules/axios/lib/cancel/CancelToken.js",
+              "moduleName": "./node_modules/react-static/node_modules/axios/lib/cancel/CancelToken.js",
               "type": "cjs require",
               "userRequest": "./Cancel",
               "loc": "3:13-32"
@@ -6576,8 +6576,8 @@
         },
         {
           "id": 95,
-          "identifier": "/home/runner/work/blaze/blaze/node_modules/axios/lib/axios.js",
-          "name": "./node_modules/axios/lib/axios.js",
+          "identifier": "/home/runner/work/blaze/blaze/node_modules/react-static/node_modules/axios/lib/axios.js",
+          "name": "./node_modules/react-static/node_modules/axios/lib/axios.js",
           "index": 64,
           "index2": 82,
           "size": 1368,
@@ -6589,18 +6589,18 @@
             2
           ],
           "assets": [],
-          "issuer": "/home/runner/work/blaze/blaze/node_modules/axios/index.js",
+          "issuer": "/home/runner/work/blaze/blaze/node_modules/react-static/node_modules/axios/index.js",
           "issuerId": 42,
-          "issuerName": "./node_modules/axios/index.js",
+          "issuerName": "./node_modules/react-static/node_modules/axios/index.js",
           "failed": false,
           "errors": 0,
           "warnings": 0,
           "reasons": [
             {
               "moduleId": 42,
-              "moduleIdentifier": "/home/runner/work/blaze/blaze/node_modules/axios/index.js",
-              "module": "./node_modules/axios/index.js",
-              "moduleName": "./node_modules/axios/index.js",
+              "moduleIdentifier": "/home/runner/work/blaze/blaze/node_modules/react-static/node_modules/axios/index.js",
+              "module": "./node_modules/react-static/node_modules/axios/index.js",
+              "moduleName": "./node_modules/react-static/node_modules/axios/index.js",
               "type": "cjs require",
               "userRequest": "./lib/axios",
               "loc": "1:17-39"
@@ -6627,18 +6627,18 @@
             2
           ],
           "assets": [],
-          "issuer": "/home/runner/work/blaze/blaze/node_modules/axios/lib/utils.js",
+          "issuer": "/home/runner/work/blaze/blaze/node_modules/react-static/node_modules/axios/lib/utils.js",
           "issuerId": 2,
-          "issuerName": "./node_modules/axios/lib/utils.js",
+          "issuerName": "./node_modules/react-static/node_modules/axios/lib/utils.js",
           "failed": false,
           "errors": 0,
           "warnings": 0,
           "reasons": [
             {
               "moduleId": 2,
-              "moduleIdentifier": "/home/runner/work/blaze/blaze/node_modules/axios/lib/utils.js",
-              "module": "./node_modules/axios/lib/utils.js",
-              "moduleName": "./node_modules/axios/lib/utils.js",
+              "moduleIdentifier": "/home/runner/work/blaze/blaze/node_modules/react-static/node_modules/axios/lib/utils.js",
+              "module": "./node_modules/react-static/node_modules/axios/lib/utils.js",
+              "moduleName": "./node_modules/react-static/node_modules/axios/lib/utils.js",
               "type": "cjs require",
               "userRequest": "is-buffer",
               "loc": "4:15-35"
@@ -6652,8 +6652,8 @@
         },
         {
           "id": 97,
-          "identifier": "/home/runner/work/blaze/blaze/node_modules/axios/lib/core/Axios.js",
-          "name": "./node_modules/axios/lib/core/Axios.js",
+          "identifier": "/home/runner/work/blaze/blaze/node_modules/react-static/node_modules/axios/lib/core/Axios.js",
+          "name": "./node_modules/react-static/node_modules/axios/lib/core/Axios.js",
           "index": 68,
           "index2": 78,
           "size": 2448,
@@ -6665,18 +6665,18 @@
             2
           ],
           "assets": [],
-          "issuer": "/home/runner/work/blaze/blaze/node_modules/axios/lib/axios.js",
+          "issuer": "/home/runner/work/blaze/blaze/node_modules/react-static/node_modules/axios/lib/axios.js",
           "issuerId": 95,
-          "issuerName": "./node_modules/axios/lib/axios.js",
+          "issuerName": "./node_modules/react-static/node_modules/axios/lib/axios.js",
           "failed": false,
           "errors": 0,
           "warnings": 0,
           "reasons": [
             {
               "moduleId": 95,
-              "moduleIdentifier": "/home/runner/work/blaze/blaze/node_modules/axios/lib/axios.js",
-              "module": "./node_modules/axios/lib/axios.js",
-              "moduleName": "./node_modules/axios/lib/axios.js",
+              "moduleIdentifier": "/home/runner/work/blaze/blaze/node_modules/react-static/node_modules/axios/lib/axios.js",
+              "module": "./node_modules/react-static/node_modules/axios/lib/axios.js",
+              "moduleName": "./node_modules/react-static/node_modules/axios/lib/axios.js",
               "type": "cjs require",
               "userRequest": "./core/Axios",
               "loc": "5:12-35"
@@ -6690,8 +6690,8 @@
         },
         {
           "id": 98,
-          "identifier": "/home/runner/work/blaze/blaze/node_modules/axios/lib/helpers/normalizeHeaderName.js",
-          "name": "./node_modules/axios/lib/helpers/normalizeHeaderName.js",
+          "identifier": "/home/runner/work/blaze/blaze/node_modules/react-static/node_modules/axios/lib/helpers/normalizeHeaderName.js",
+          "name": "./node_modules/react-static/node_modules/axios/lib/helpers/normalizeHeaderName.js",
           "index": 70,
           "index2": 61,
           "size": 357,
@@ -6703,18 +6703,18 @@
             2
           ],
           "assets": [],
-          "issuer": "/home/runner/work/blaze/blaze/node_modules/axios/lib/defaults.js",
+          "issuer": "/home/runner/work/blaze/blaze/node_modules/react-static/node_modules/axios/lib/defaults.js",
           "issuerId": 20,
-          "issuerName": "./node_modules/axios/lib/defaults.js",
+          "issuerName": "./node_modules/react-static/node_modules/axios/lib/defaults.js",
           "failed": false,
           "errors": 0,
           "warnings": 0,
           "reasons": [
             {
               "moduleId": 20,
-              "moduleIdentifier": "/home/runner/work/blaze/blaze/node_modules/axios/lib/defaults.js",
-              "module": "./node_modules/axios/lib/defaults.js",
-              "moduleName": "./node_modules/axios/lib/defaults.js",
+              "moduleIdentifier": "/home/runner/work/blaze/blaze/node_modules/react-static/node_modules/axios/lib/defaults.js",
+              "module": "./node_modules/react-static/node_modules/axios/lib/defaults.js",
+              "moduleName": "./node_modules/react-static/node_modules/axios/lib/defaults.js",
               "type": "cjs require",
               "userRequest": "./helpers/normalizeHeaderName",
               "loc": "4:26-66"
@@ -6728,8 +6728,8 @@
         },
         {
           "id": 99,
-          "identifier": "/home/runner/work/blaze/blaze/node_modules/axios/lib/core/settle.js",
-          "name": "./node_modules/axios/lib/core/settle.js",
+          "identifier": "/home/runner/work/blaze/blaze/node_modules/react-static/node_modules/axios/lib/core/settle.js",
+          "name": "./node_modules/react-static/node_modules/axios/lib/core/settle.js",
           "index": 72,
           "index2": 64,
           "size": 757,
@@ -6741,18 +6741,18 @@
             2
           ],
           "assets": [],
-          "issuer": "/home/runner/work/blaze/blaze/node_modules/axios/lib/adapters/xhr.js",
+          "issuer": "/home/runner/work/blaze/blaze/node_modules/react-static/node_modules/axios/lib/adapters/xhr.js",
           "issuerId": 44,
-          "issuerName": "./node_modules/axios/lib/adapters/xhr.js",
+          "issuerName": "./node_modules/react-static/node_modules/axios/lib/adapters/xhr.js",
           "failed": false,
           "errors": 0,
           "warnings": 0,
           "reasons": [
             {
               "moduleId": 44,
-              "moduleIdentifier": "/home/runner/work/blaze/blaze/node_modules/axios/lib/adapters/xhr.js",
-              "module": "./node_modules/axios/lib/adapters/xhr.js",
-              "moduleName": "./node_modules/axios/lib/adapters/xhr.js",
+              "moduleIdentifier": "/home/runner/work/blaze/blaze/node_modules/react-static/node_modules/axios/lib/adapters/xhr.js",
+              "module": "./node_modules/react-static/node_modules/axios/lib/adapters/xhr.js",
+              "moduleName": "./node_modules/react-static/node_modules/axios/lib/adapters/xhr.js",
               "type": "cjs require",
               "userRequest": "./../core/settle",
               "loc": "4:13-40"
@@ -6766,8 +6766,8 @@
         },
         {
           "id": 100,
-          "identifier": "/home/runner/work/blaze/blaze/node_modules/axios/lib/core/enhanceError.js",
-          "name": "./node_modules/axios/lib/core/enhanceError.js",
+          "identifier": "/home/runner/work/blaze/blaze/node_modules/react-static/node_modules/axios/lib/core/enhanceError.js",
+          "name": "./node_modules/react-static/node_modules/axios/lib/core/enhanceError.js",
           "index": 74,
           "index2": 62,
           "size": 592,
@@ -6779,18 +6779,18 @@
             2
           ],
           "assets": [],
-          "issuer": "/home/runner/work/blaze/blaze/node_modules/axios/lib/core/createError.js",
+          "issuer": "/home/runner/work/blaze/blaze/node_modules/react-static/node_modules/axios/lib/core/createError.js",
           "issuerId": 45,
-          "issuerName": "./node_modules/axios/lib/core/createError.js",
+          "issuerName": "./node_modules/react-static/node_modules/axios/lib/core/createError.js",
           "failed": false,
           "errors": 0,
           "warnings": 0,
           "reasons": [
             {
               "moduleId": 45,
-              "moduleIdentifier": "/home/runner/work/blaze/blaze/node_modules/axios/lib/core/createError.js",
-              "module": "./node_modules/axios/lib/core/createError.js",
-              "moduleName": "./node_modules/axios/lib/core/createError.js",
+              "moduleIdentifier": "/home/runner/work/blaze/blaze/node_modules/react-static/node_modules/axios/lib/core/createError.js",
+              "module": "./node_modules/react-static/node_modules/axios/lib/core/createError.js",
+              "moduleName": "./node_modules/react-static/node_modules/axios/lib/core/createError.js",
               "type": "cjs require",
               "userRequest": "./enhanceError",
               "loc": "3:19-44"
@@ -6804,8 +6804,8 @@
         },
         {
           "id": 101,
-          "identifier": "/home/runner/work/blaze/blaze/node_modules/axios/lib/helpers/buildURL.js",
-          "name": "./node_modules/axios/lib/helpers/buildURL.js",
+          "identifier": "/home/runner/work/blaze/blaze/node_modules/react-static/node_modules/axios/lib/helpers/buildURL.js",
+          "name": "./node_modules/react-static/node_modules/axios/lib/helpers/buildURL.js",
           "index": 75,
           "index2": 65,
           "size": 1576,
@@ -6817,18 +6817,18 @@
             2
           ],
           "assets": [],
-          "issuer": "/home/runner/work/blaze/blaze/node_modules/axios/lib/adapters/xhr.js",
+          "issuer": "/home/runner/work/blaze/blaze/node_modules/react-static/node_modules/axios/lib/adapters/xhr.js",
           "issuerId": 44,
-          "issuerName": "./node_modules/axios/lib/adapters/xhr.js",
+          "issuerName": "./node_modules/react-static/node_modules/axios/lib/adapters/xhr.js",
           "failed": false,
           "errors": 0,
           "warnings": 0,
           "reasons": [
             {
               "moduleId": 44,
-              "moduleIdentifier": "/home/runner/work/blaze/blaze/node_modules/axios/lib/adapters/xhr.js",
-              "module": "./node_modules/axios/lib/adapters/xhr.js",
-              "moduleName": "./node_modules/axios/lib/adapters/xhr.js",
+              "moduleIdentifier": "/home/runner/work/blaze/blaze/node_modules/react-static/node_modules/axios/lib/adapters/xhr.js",
+              "module": "./node_modules/react-static/node_modules/axios/lib/adapters/xhr.js",
+              "moduleName": "./node_modules/react-static/node_modules/axios/lib/adapters/xhr.js",
               "type": "cjs require",
               "userRequest": "./../helpers/buildURL",
               "loc": "5:15-47"
@@ -6842,8 +6842,8 @@
         },
         {
           "id": 102,
-          "identifier": "/home/runner/work/blaze/blaze/node_modules/axios/lib/helpers/parseHeaders.js",
-          "name": "./node_modules/axios/lib/helpers/parseHeaders.js",
+          "identifier": "/home/runner/work/blaze/blaze/node_modules/react-static/node_modules/axios/lib/helpers/parseHeaders.js",
+          "name": "./node_modules/react-static/node_modules/axios/lib/helpers/parseHeaders.js",
           "index": 76,
           "index2": 66,
           "size": 784,
@@ -6855,18 +6855,18 @@
             2
           ],
           "assets": [],
-          "issuer": "/home/runner/work/blaze/blaze/node_modules/axios/lib/adapters/xhr.js",
+          "issuer": "/home/runner/work/blaze/blaze/node_modules/react-static/node_modules/axios/lib/adapters/xhr.js",
           "issuerId": 44,
-          "issuerName": "./node_modules/axios/lib/adapters/xhr.js",
+          "issuerName": "./node_modules/react-static/node_modules/axios/lib/adapters/xhr.js",
           "failed": false,
           "errors": 0,
           "warnings": 0,
           "reasons": [
             {
               "moduleId": 44,
-              "moduleIdentifier": "/home/runner/work/blaze/blaze/node_modules/axios/lib/adapters/xhr.js",
-              "module": "./node_modules/axios/lib/adapters/xhr.js",
-              "moduleName": "./node_modules/axios/lib/adapters/xhr.js",
+              "moduleIdentifier": "/home/runner/work/blaze/blaze/node_modules/react-static/node_modules/axios/lib/adapters/xhr.js",
+              "module": "./node_modules/react-static/node_modules/axios/lib/adapters/xhr.js",
+              "moduleName": "./node_modules/react-static/node_modules/axios/lib/adapters/xhr.js",
               "type": "cjs require",
               "userRequest": "./../helpers/parseHeaders",
               "loc": "6:19-55"
@@ -6880,8 +6880,8 @@
         },
         {
           "id": 103,
-          "identifier": "/home/runner/work/blaze/blaze/node_modules/axios/lib/helpers/isURLSameOrigin.js",
-          "name": "./node_modules/axios/lib/helpers/isURLSameOrigin.js",
+          "identifier": "/home/runner/work/blaze/blaze/node_modules/react-static/node_modules/axios/lib/helpers/isURLSameOrigin.js",
+          "name": "./node_modules/react-static/node_modules/axios/lib/helpers/isURLSameOrigin.js",
           "index": 77,
           "index2": 67,
           "size": 2245,
@@ -6893,18 +6893,18 @@
             2
           ],
           "assets": [],
-          "issuer": "/home/runner/work/blaze/blaze/node_modules/axios/lib/adapters/xhr.js",
+          "issuer": "/home/runner/work/blaze/blaze/node_modules/react-static/node_modules/axios/lib/adapters/xhr.js",
           "issuerId": 44,
-          "issuerName": "./node_modules/axios/lib/adapters/xhr.js",
+          "issuerName": "./node_modules/react-static/node_modules/axios/lib/adapters/xhr.js",
           "failed": false,
           "errors": 0,
           "warnings": 0,
           "reasons": [
             {
               "moduleId": 44,
-              "moduleIdentifier": "/home/runner/work/blaze/blaze/node_modules/axios/lib/adapters/xhr.js",
-              "module": "./node_modules/axios/lib/adapters/xhr.js",
-              "moduleName": "./node_modules/axios/lib/adapters/xhr.js",
+              "moduleIdentifier": "/home/runner/work/blaze/blaze/node_modules/react-static/node_modules/axios/lib/adapters/xhr.js",
+              "module": "./node_modules/react-static/node_modules/axios/lib/adapters/xhr.js",
+              "moduleName": "./node_modules/react-static/node_modules/axios/lib/adapters/xhr.js",
               "type": "cjs require",
               "userRequest": "./../helpers/isURLSameOrigin",
               "loc": "7:22-61"
@@ -6918,8 +6918,8 @@
         },
         {
           "id": 104,
-          "identifier": "/home/runner/work/blaze/blaze/node_modules/axios/lib/helpers/btoa.js",
-          "name": "./node_modules/axios/lib/helpers/btoa.js",
+          "identifier": "/home/runner/work/blaze/blaze/node_modules/react-static/node_modules/axios/lib/helpers/btoa.js",
+          "name": "./node_modules/react-static/node_modules/axios/lib/helpers/btoa.js",
           "index": 78,
           "index2": 68,
           "size": 986,
@@ -6931,18 +6931,18 @@
             2
           ],
           "assets": [],
-          "issuer": "/home/runner/work/blaze/blaze/node_modules/axios/lib/adapters/xhr.js",
+          "issuer": "/home/runner/work/blaze/blaze/node_modules/react-static/node_modules/axios/lib/adapters/xhr.js",
           "issuerId": 44,
-          "issuerName": "./node_modules/axios/lib/adapters/xhr.js",
+          "issuerName": "./node_modules/react-static/node_modules/axios/lib/adapters/xhr.js",
           "failed": false,
           "errors": 0,
           "warnings": 0,
           "reasons": [
             {
               "moduleId": 44,
-              "moduleIdentifier": "/home/runner/work/blaze/blaze/node_modules/axios/lib/adapters/xhr.js",
-              "module": "./node_modules/axios/lib/adapters/xhr.js",
-              "moduleName": "./node_modules/axios/lib/adapters/xhr.js",
+              "moduleIdentifier": "/home/runner/work/blaze/blaze/node_modules/react-static/node_modules/axios/lib/adapters/xhr.js",
+              "module": "./node_modules/react-static/node_modules/axios/lib/adapters/xhr.js",
+              "moduleName": "./node_modules/react-static/node_modules/axios/lib/adapters/xhr.js",
               "type": "cjs require",
               "userRequest": "./../helpers/btoa",
               "loc": "9:89-117"
@@ -6956,8 +6956,8 @@
         },
         {
           "id": 105,
-          "identifier": "/home/runner/work/blaze/blaze/node_modules/axios/lib/helpers/cookies.js",
-          "name": "./node_modules/axios/lib/helpers/cookies.js",
+          "identifier": "/home/runner/work/blaze/blaze/node_modules/react-static/node_modules/axios/lib/helpers/cookies.js",
+          "name": "./node_modules/react-static/node_modules/axios/lib/helpers/cookies.js",
           "index": 79,
           "index2": 69,
           "size": 1365,
@@ -6969,18 +6969,18 @@
             2
           ],
           "assets": [],
-          "issuer": "/home/runner/work/blaze/blaze/node_modules/axios/lib/adapters/xhr.js",
+          "issuer": "/home/runner/work/blaze/blaze/node_modules/react-static/node_modules/axios/lib/adapters/xhr.js",
           "issuerId": 44,
-          "issuerName": "./node_modules/axios/lib/adapters/xhr.js",
+          "issuerName": "./node_modules/react-static/node_modules/axios/lib/adapters/xhr.js",
           "failed": false,
           "errors": 0,
           "warnings": 0,
           "reasons": [
             {
               "moduleId": 44,
-              "moduleIdentifier": "/home/runner/work/blaze/blaze/node_modules/axios/lib/adapters/xhr.js",
-              "module": "./node_modules/axios/lib/adapters/xhr.js",
-              "moduleName": "./node_modules/axios/lib/adapters/xhr.js",
+              "moduleIdentifier": "/home/runner/work/blaze/blaze/node_modules/react-static/node_modules/axios/lib/adapters/xhr.js",
+              "module": "./node_modules/react-static/node_modules/axios/lib/adapters/xhr.js",
+              "moduleName": "./node_modules/react-static/node_modules/axios/lib/adapters/xhr.js",
               "type": "cjs require",
               "userRequest": "./../helpers/cookies",
               "loc": "106:20-51"
@@ -6994,8 +6994,8 @@
         },
         {
           "id": 106,
-          "identifier": "/home/runner/work/blaze/blaze/node_modules/axios/lib/core/InterceptorManager.js",
-          "name": "./node_modules/axios/lib/core/InterceptorManager.js",
+          "identifier": "/home/runner/work/blaze/blaze/node_modules/react-static/node_modules/axios/lib/core/InterceptorManager.js",
+          "name": "./node_modules/react-static/node_modules/axios/lib/core/InterceptorManager.js",
           "index": 80,
           "index2": 72,
           "size": 1251,
@@ -7007,18 +7007,18 @@
             2
           ],
           "assets": [],
-          "issuer": "/home/runner/work/blaze/blaze/node_modules/axios/lib/core/Axios.js",
+          "issuer": "/home/runner/work/blaze/blaze/node_modules/react-static/node_modules/axios/lib/core/Axios.js",
           "issuerId": 97,
-          "issuerName": "./node_modules/axios/lib/core/Axios.js",
+          "issuerName": "./node_modules/react-static/node_modules/axios/lib/core/Axios.js",
           "failed": false,
           "errors": 0,
           "warnings": 0,
           "reasons": [
             {
               "moduleId": 97,
-              "moduleIdentifier": "/home/runner/work/blaze/blaze/node_modules/axios/lib/core/Axios.js",
-              "module": "./node_modules/axios/lib/core/Axios.js",
-              "moduleName": "./node_modules/axios/lib/core/Axios.js",
+              "moduleIdentifier": "/home/runner/work/blaze/blaze/node_modules/react-static/node_modules/axios/lib/core/Axios.js",
+              "module": "./node_modules/react-static/node_modules/axios/lib/core/Axios.js",
+              "moduleName": "./node_modules/react-static/node_modules/axios/lib/core/Axios.js",
               "type": "cjs require",
               "userRequest": "./InterceptorManager",
               "loc": "5:25-56"
@@ -7032,8 +7032,8 @@
         },
         {
           "id": 107,
-          "identifier": "/home/runner/work/blaze/blaze/node_modules/axios/lib/core/dispatchRequest.js",
-          "name": "./node_modules/axios/lib/core/dispatchRequest.js",
+          "identifier": "/home/runner/work/blaze/blaze/node_modules/react-static/node_modules/axios/lib/core/dispatchRequest.js",
+          "name": "./node_modules/react-static/node_modules/axios/lib/core/dispatchRequest.js",
           "index": 81,
           "index2": 75,
           "size": 1940,
@@ -7045,18 +7045,18 @@
             2
           ],
           "assets": [],
-          "issuer": "/home/runner/work/blaze/blaze/node_modules/axios/lib/core/Axios.js",
+          "issuer": "/home/runner/work/blaze/blaze/node_modules/react-static/node_modules/axios/lib/core/Axios.js",
           "issuerId": 97,
-          "issuerName": "./node_modules/axios/lib/core/Axios.js",
+          "issuerName": "./node_modules/react-static/node_modules/axios/lib/core/Axios.js",
           "failed": false,
           "errors": 0,
           "warnings": 0,
           "reasons": [
             {
               "moduleId": 97,
-              "moduleIdentifier": "/home/runner/work/blaze/blaze/node_modules/axios/lib/core/Axios.js",
-              "module": "./node_modules/axios/lib/core/Axios.js",
-              "moduleName": "./node_modules/axios/lib/core/Axios.js",
+              "moduleIdentifier": "/home/runner/work/blaze/blaze/node_modules/react-static/node_modules/axios/lib/core/Axios.js",
+              "module": "./node_modules/react-static/node_modules/axios/lib/core/Axios.js",
+              "moduleName": "./node_modules/react-static/node_modules/axios/lib/core/Axios.js",
               "type": "cjs require",
               "userRequest": "./dispatchRequest",
               "loc": "6:22-50"
@@ -7070,8 +7070,8 @@
         },
         {
           "id": 108,
-          "identifier": "/home/runner/work/blaze/blaze/node_modules/axios/lib/core/transformData.js",
-          "name": "./node_modules/axios/lib/core/transformData.js",
+          "identifier": "/home/runner/work/blaze/blaze/node_modules/react-static/node_modules/axios/lib/core/transformData.js",
+          "name": "./node_modules/react-static/node_modules/axios/lib/core/transformData.js",
           "index": 82,
           "index2": 73,
           "size": 550,
@@ -7083,18 +7083,18 @@
             2
           ],
           "assets": [],
-          "issuer": "/home/runner/work/blaze/blaze/node_modules/axios/lib/core/dispatchRequest.js",
+          "issuer": "/home/runner/work/blaze/blaze/node_modules/react-static/node_modules/axios/lib/core/dispatchRequest.js",
           "issuerId": 107,
-          "issuerName": "./node_modules/axios/lib/core/dispatchRequest.js",
+          "issuerName": "./node_modules/react-static/node_modules/axios/lib/core/dispatchRequest.js",
           "failed": false,
           "errors": 0,
           "warnings": 0,
           "reasons": [
             {
               "moduleId": 107,
-              "moduleIdentifier": "/home/runner/work/blaze/blaze/node_modules/axios/lib/core/dispatchRequest.js",
-              "module": "./node_modules/axios/lib/core/dispatchRequest.js",
-              "moduleName": "./node_modules/axios/lib/core/dispatchRequest.js",
+              "moduleIdentifier": "/home/runner/work/blaze/blaze/node_modules/react-static/node_modules/axios/lib/core/dispatchRequest.js",
+              "module": "./node_modules/react-static/node_modules/axios/lib/core/dispatchRequest.js",
+              "moduleName": "./node_modules/react-static/node_modules/axios/lib/core/dispatchRequest.js",
               "type": "cjs require",
               "userRequest": "./transformData",
               "loc": "4:20-46"
@@ -7108,8 +7108,8 @@
         },
         {
           "id": 109,
-          "identifier": "/home/runner/work/blaze/blaze/node_modules/axios/lib/helpers/isAbsoluteURL.js",
-          "name": "./node_modules/axios/lib/helpers/isAbsoluteURL.js",
+          "identifier": "/home/runner/work/blaze/blaze/node_modules/react-static/node_modules/axios/lib/helpers/isAbsoluteURL.js",
+          "name": "./node_modules/react-static/node_modules/axios/lib/helpers/isAbsoluteURL.js",
           "index": 84,
           "index2": 76,
           "size": 563,
@@ -7121,18 +7121,18 @@
             2
           ],
           "assets": [],
-          "issuer": "/home/runner/work/blaze/blaze/node_modules/axios/lib/core/Axios.js",
+          "issuer": "/home/runner/work/blaze/blaze/node_modules/react-static/node_modules/axios/lib/core/Axios.js",
           "issuerId": 97,
-          "issuerName": "./node_modules/axios/lib/core/Axios.js",
+          "issuerName": "./node_modules/react-static/node_modules/axios/lib/core/Axios.js",
           "failed": false,
           "errors": 0,
           "warnings": 0,
           "reasons": [
             {
               "moduleId": 97,
-              "moduleIdentifier": "/home/runner/work/blaze/blaze/node_modules/axios/lib/core/Axios.js",
-              "module": "./node_modules/axios/lib/core/Axios.js",
-              "moduleName": "./node_modules/axios/lib/core/Axios.js",
+              "moduleIdentifier": "/home/runner/work/blaze/blaze/node_modules/react-static/node_modules/axios/lib/core/Axios.js",
+              "module": "./node_modules/react-static/node_modules/axios/lib/core/Axios.js",
+              "moduleName": "./node_modules/react-static/node_modules/axios/lib/core/Axios.js",
               "type": "cjs require",
               "userRequest": "./../helpers/isAbsoluteURL",
               "loc": "7:20-57"
@@ -7146,8 +7146,8 @@
         },
         {
           "id": 110,
-          "identifier": "/home/runner/work/blaze/blaze/node_modules/axios/lib/helpers/combineURLs.js",
-          "name": "./node_modules/axios/lib/helpers/combineURLs.js",
+          "identifier": "/home/runner/work/blaze/blaze/node_modules/react-static/node_modules/axios/lib/helpers/combineURLs.js",
+          "name": "./node_modules/react-static/node_modules/axios/lib/helpers/combineURLs.js",
           "index": 85,
           "index2": 77,
           "size": 380,
@@ -7159,18 +7159,18 @@
             2
           ],
           "assets": [],
-          "issuer": "/home/runner/work/blaze/blaze/node_modules/axios/lib/core/Axios.js",
+          "issuer": "/home/runner/work/blaze/blaze/node_modules/react-static/node_modules/axios/lib/core/Axios.js",
           "issuerId": 97,
-          "issuerName": "./node_modules/axios/lib/core/Axios.js",
+          "issuerName": "./node_modules/react-static/node_modules/axios/lib/core/Axios.js",
           "failed": false,
           "errors": 0,
           "warnings": 0,
           "reasons": [
             {
               "moduleId": 97,
-              "moduleIdentifier": "/home/runner/work/blaze/blaze/node_modules/axios/lib/core/Axios.js",
-              "module": "./node_modules/axios/lib/core/Axios.js",
-              "moduleName": "./node_modules/axios/lib/core/Axios.js",
+              "moduleIdentifier": "/home/runner/work/blaze/blaze/node_modules/react-static/node_modules/axios/lib/core/Axios.js",
+              "module": "./node_modules/react-static/node_modules/axios/lib/core/Axios.js",
+              "moduleName": "./node_modules/react-static/node_modules/axios/lib/core/Axios.js",
               "type": "cjs require",
               "userRequest": "./../helpers/combineURLs",
               "loc": "8:18-53"
@@ -7184,8 +7184,8 @@
         },
         {
           "id": 111,
-          "identifier": "/home/runner/work/blaze/blaze/node_modules/axios/lib/cancel/CancelToken.js",
-          "name": "./node_modules/axios/lib/cancel/CancelToken.js",
+          "identifier": "/home/runner/work/blaze/blaze/node_modules/react-static/node_modules/axios/lib/cancel/CancelToken.js",
+          "name": "./node_modules/react-static/node_modules/axios/lib/cancel/CancelToken.js",
           "index": 87,
           "index2": 80,
           "size": 1240,
@@ -7197,18 +7197,18 @@
             2
           ],
           "assets": [],
-          "issuer": "/home/runner/work/blaze/blaze/node_modules/axios/lib/axios.js",
+          "issuer": "/home/runner/work/blaze/blaze/node_modules/react-static/node_modules/axios/lib/axios.js",
           "issuerId": 95,
-          "issuerName": "./node_modules/axios/lib/axios.js",
+          "issuerName": "./node_modules/react-static/node_modules/axios/lib/axios.js",
           "failed": false,
           "errors": 0,
           "warnings": 0,
           "reasons": [
             {
               "moduleId": 95,
-              "moduleIdentifier": "/home/runner/work/blaze/blaze/node_modules/axios/lib/axios.js",
-              "module": "./node_modules/axios/lib/axios.js",
-              "moduleName": "./node_modules/axios/lib/axios.js",
+              "moduleIdentifier": "/home/runner/work/blaze/blaze/node_modules/react-static/node_modules/axios/lib/axios.js",
+              "module": "./node_modules/react-static/node_modules/axios/lib/axios.js",
+              "moduleName": "./node_modules/react-static/node_modules/axios/lib/axios.js",
               "type": "cjs require",
               "userRequest": "./cancel/CancelToken",
               "loc": "40:20-51"
@@ -7222,8 +7222,8 @@
         },
         {
           "id": 112,
-          "identifier": "/home/runner/work/blaze/blaze/node_modules/axios/lib/helpers/spread.js",
-          "name": "./node_modules/axios/lib/helpers/spread.js",
+          "identifier": "/home/runner/work/blaze/blaze/node_modules/react-static/node_modules/axios/lib/helpers/spread.js",
+          "name": "./node_modules/react-static/node_modules/axios/lib/helpers/spread.js",
           "index": 88,
           "index2": 81,
           "size": 564,
@@ -7235,18 +7235,18 @@
             2
           ],
           "assets": [],
-          "issuer": "/home/runner/work/blaze/blaze/node_modules/axios/lib/axios.js",
+          "issuer": "/home/runner/work/blaze/blaze/node_modules/react-static/node_modules/axios/lib/axios.js",
           "issuerId": 95,
-          "issuerName": "./node_modules/axios/lib/axios.js",
+          "issuerName": "./node_modules/react-static/node_modules/axios/lib/axios.js",
           "failed": false,
           "errors": 0,
           "warnings": 0,
           "reasons": [
             {
               "moduleId": 95,
-              "moduleIdentifier": "/home/runner/work/blaze/blaze/node_modules/axios/lib/axios.js",
-              "module": "./node_modules/axios/lib/axios.js",
-              "moduleName": "./node_modules/axios/lib/axios.js",
+              "moduleIdentifier": "/home/runner/work/blaze/blaze/node_modules/react-static/node_modules/axios/lib/axios.js",
+              "module": "./node_modules/react-static/node_modules/axios/lib/axios.js",
+              "moduleName": "./node_modules/react-static/node_modules/axios/lib/axios.js",
               "type": "cjs require",
               "userRequest": "./helpers/spread",
               "loc": "47:15-42"
@@ -9650,8 +9650,8 @@
     },
     {
       "id": 2,
-      "identifier": "/home/runner/work/blaze/blaze/node_modules/axios/lib/utils.js",
-      "name": "./node_modules/axios/lib/utils.js",
+      "identifier": "/home/runner/work/blaze/blaze/node_modules/react-static/node_modules/axios/lib/utils.js",
+      "name": "./node_modules/react-static/node_modules/axios/lib/utils.js",
       "index": 65,
       "index2": 60,
       "size": 7558,
@@ -9663,117 +9663,117 @@
         2
       ],
       "assets": [],
-      "issuer": "/home/runner/work/blaze/blaze/node_modules/axios/lib/axios.js",
+      "issuer": "/home/runner/work/blaze/blaze/node_modules/react-static/node_modules/axios/lib/axios.js",
       "issuerId": 95,
-      "issuerName": "./node_modules/axios/lib/axios.js",
+      "issuerName": "./node_modules/react-static/node_modules/axios/lib/axios.js",
       "failed": false,
       "errors": 0,
       "warnings": 0,
       "reasons": [
         {
           "moduleId": 20,
-          "moduleIdentifier": "/home/runner/work/blaze/blaze/node_modules/axios/lib/defaults.js",
-          "module": "./node_modules/axios/lib/defaults.js",
-          "moduleName": "./node_modules/axios/lib/defaults.js",
+          "moduleIdentifier": "/home/runner/work/blaze/blaze/node_modules/react-static/node_modules/axios/lib/defaults.js",
+          "module": "./node_modules/react-static/node_modules/axios/lib/defaults.js",
+          "moduleName": "./node_modules/react-static/node_modules/axios/lib/defaults.js",
           "type": "cjs require",
           "userRequest": "./utils",
           "loc": "3:12-30"
         },
         {
           "moduleId": 44,
-          "moduleIdentifier": "/home/runner/work/blaze/blaze/node_modules/axios/lib/adapters/xhr.js",
-          "module": "./node_modules/axios/lib/adapters/xhr.js",
-          "moduleName": "./node_modules/axios/lib/adapters/xhr.js",
+          "moduleIdentifier": "/home/runner/work/blaze/blaze/node_modules/react-static/node_modules/axios/lib/adapters/xhr.js",
+          "module": "./node_modules/react-static/node_modules/axios/lib/adapters/xhr.js",
+          "moduleName": "./node_modules/react-static/node_modules/axios/lib/adapters/xhr.js",
           "type": "cjs require",
           "userRequest": "./../utils",
           "loc": "3:12-33"
         },
         {
           "moduleId": 95,
-          "moduleIdentifier": "/home/runner/work/blaze/blaze/node_modules/axios/lib/axios.js",
-          "module": "./node_modules/axios/lib/axios.js",
-          "moduleName": "./node_modules/axios/lib/axios.js",
+          "moduleIdentifier": "/home/runner/work/blaze/blaze/node_modules/react-static/node_modules/axios/lib/axios.js",
+          "module": "./node_modules/react-static/node_modules/axios/lib/axios.js",
+          "moduleName": "./node_modules/react-static/node_modules/axios/lib/axios.js",
           "type": "cjs require",
           "userRequest": "./utils",
           "loc": "3:12-30"
         },
         {
           "moduleId": 97,
-          "moduleIdentifier": "/home/runner/work/blaze/blaze/node_modules/axios/lib/core/Axios.js",
-          "module": "./node_modules/axios/lib/core/Axios.js",
-          "moduleName": "./node_modules/axios/lib/core/Axios.js",
+          "moduleIdentifier": "/home/runner/work/blaze/blaze/node_modules/react-static/node_modules/axios/lib/core/Axios.js",
+          "module": "./node_modules/react-static/node_modules/axios/lib/core/Axios.js",
+          "moduleName": "./node_modules/react-static/node_modules/axios/lib/core/Axios.js",
           "type": "cjs require",
           "userRequest": "./../utils",
           "loc": "4:12-33"
         },
         {
           "moduleId": 98,
-          "moduleIdentifier": "/home/runner/work/blaze/blaze/node_modules/axios/lib/helpers/normalizeHeaderName.js",
-          "module": "./node_modules/axios/lib/helpers/normalizeHeaderName.js",
-          "moduleName": "./node_modules/axios/lib/helpers/normalizeHeaderName.js",
+          "moduleIdentifier": "/home/runner/work/blaze/blaze/node_modules/react-static/node_modules/axios/lib/helpers/normalizeHeaderName.js",
+          "module": "./node_modules/react-static/node_modules/axios/lib/helpers/normalizeHeaderName.js",
+          "moduleName": "./node_modules/react-static/node_modules/axios/lib/helpers/normalizeHeaderName.js",
           "type": "cjs require",
           "userRequest": "../utils",
           "loc": "3:12-31"
         },
         {
           "moduleId": 101,
-          "moduleIdentifier": "/home/runner/work/blaze/blaze/node_modules/axios/lib/helpers/buildURL.js",
-          "module": "./node_modules/axios/lib/helpers/buildURL.js",
-          "moduleName": "./node_modules/axios/lib/helpers/buildURL.js",
+          "moduleIdentifier": "/home/runner/work/blaze/blaze/node_modules/react-static/node_modules/axios/lib/helpers/buildURL.js",
+          "module": "./node_modules/react-static/node_modules/axios/lib/helpers/buildURL.js",
+          "moduleName": "./node_modules/react-static/node_modules/axios/lib/helpers/buildURL.js",
           "type": "cjs require",
           "userRequest": "./../utils",
           "loc": "3:12-33"
         },
         {
           "moduleId": 102,
-          "moduleIdentifier": "/home/runner/work/blaze/blaze/node_modules/axios/lib/helpers/parseHeaders.js",
-          "module": "./node_modules/axios/lib/helpers/parseHeaders.js",
-          "moduleName": "./node_modules/axios/lib/helpers/parseHeaders.js",
+          "moduleIdentifier": "/home/runner/work/blaze/blaze/node_modules/react-static/node_modules/axios/lib/helpers/parseHeaders.js",
+          "module": "./node_modules/react-static/node_modules/axios/lib/helpers/parseHeaders.js",
+          "moduleName": "./node_modules/react-static/node_modules/axios/lib/helpers/parseHeaders.js",
           "type": "cjs require",
           "userRequest": "./../utils",
           "loc": "3:12-33"
         },
         {
           "moduleId": 103,
-          "moduleIdentifier": "/home/runner/work/blaze/blaze/node_modules/axios/lib/helpers/isURLSameOrigin.js",
-          "module": "./node_modules/axios/lib/helpers/isURLSameOrigin.js",
-          "moduleName": "./node_modules/axios/lib/helpers/isURLSameOrigin.js",
+          "moduleIdentifier": "/home/runner/work/blaze/blaze/node_modules/react-static/node_modules/axios/lib/helpers/isURLSameOrigin.js",
+          "module": "./node_modules/react-static/node_modules/axios/lib/helpers/isURLSameOrigin.js",
+          "moduleName": "./node_modules/react-static/node_modules/axios/lib/helpers/isURLSameOrigin.js",
           "type": "cjs require",
           "userRequest": "./../utils",
           "loc": "3:12-33"
         },
         {
           "moduleId": 105,
-          "moduleIdentifier": "/home/runner/work/blaze/blaze/node_modules/axios/lib/helpers/cookies.js",
-          "module": "./node_modules/axios/lib/helpers/cookies.js",
-          "moduleName": "./node_modules/axios/lib/helpers/cookies.js",
+          "moduleIdentifier": "/home/runner/work/blaze/blaze/node_modules/react-static/node_modules/axios/lib/helpers/cookies.js",
+          "module": "./node_modules/react-static/node_modules/axios/lib/helpers/cookies.js",
+          "moduleName": "./node_modules/react-static/node_modules/axios/lib/helpers/cookies.js",
           "type": "cjs require",
           "userRequest": "./../utils",
           "loc": "3:12-33"
         },
         {
           "moduleId": 106,
-          "moduleIdentifier": "/home/runner/work/blaze/blaze/node_modules/axios/lib/core/InterceptorManager.js",
-          "module": "./node_modules/axios/lib/core/InterceptorManager.js",
-          "moduleName": "./node_modules/axios/lib/core/InterceptorManager.js",
+          "moduleIdentifier": "/home/runner/work/blaze/blaze/node_modules/react-static/node_modules/axios/lib/core/InterceptorManager.js",
+          "module": "./node_modules/react-static/node_modules/axios/lib/core/InterceptorManager.js",
+          "moduleName": "./node_modules/react-static/node_modules/axios/lib/core/InterceptorManager.js",
           "type": "cjs require",
           "userRequest": "./../utils",
           "loc": "3:12-33"
         },
         {
           "moduleId": 107,
-          "moduleIdentifier": "/home/runner/work/blaze/blaze/node_modules/axios/lib/core/dispatchRequest.js",
-          "module": "./node_modules/axios/lib/core/dispatchRequest.js",
-          "moduleName": "./node_modules/axios/lib/core/dispatchRequest.js",
+          "moduleIdentifier": "/home/runner/work/blaze/blaze/node_modules/react-static/node_modules/axios/lib/core/dispatchRequest.js",
+          "module": "./node_modules/react-static/node_modules/axios/lib/core/dispatchRequest.js",
+          "moduleName": "./node_modules/react-static/node_modules/axios/lib/core/dispatchRequest.js",
           "type": "cjs require",
           "userRequest": "./../utils",
           "loc": "3:12-33"
         },
         {
           "moduleId": 108,
-          "moduleIdentifier": "/home/runner/work/blaze/blaze/node_modules/axios/lib/core/transformData.js",
-          "module": "./node_modules/axios/lib/core/transformData.js",
-          "moduleName": "./node_modules/axios/lib/core/transformData.js",
+          "moduleIdentifier": "/home/runner/work/blaze/blaze/node_modules/react-static/node_modules/axios/lib/core/transformData.js",
+          "module": "./node_modules/react-static/node_modules/axios/lib/core/transformData.js",
+          "moduleName": "./node_modules/react-static/node_modules/axios/lib/core/transformData.js",
           "type": "cjs require",
           "userRequest": "./../utils",
           "loc": "3:12-33"
@@ -10597,12 +10597,12 @@
         },
         {
           "moduleId": 20,
-          "moduleIdentifier": "/home/runner/work/blaze/blaze/node_modules/axios/lib/defaults.js",
-          "module": "./node_modules/axios/lib/defaults.js",
-          "moduleName": "./node_modules/axios/lib/defaults.js",
+          "moduleIdentifier": "/home/runner/work/blaze/blaze/node_modules/react-static/node_modules/axios/lib/defaults.js",
+          "module": "./node_modules/react-static/node_modules/axios/lib/defaults.js",
+          "moduleName": "./node_modules/react-static/node_modules/axios/lib/defaults.js",
           "type": "cjs require",
           "userRequest": "process",
-          "loc": "1:0-37"
+          "loc": "1:0-43"
         },
         {
           "moduleId": 123,
@@ -11127,8 +11127,8 @@
     },
     {
       "id": 20,
-      "identifier": "/home/runner/work/blaze/blaze/node_modules/axios/lib/defaults.js",
-      "name": "./node_modules/axios/lib/defaults.js",
+      "identifier": "/home/runner/work/blaze/blaze/node_modules/react-static/node_modules/axios/lib/defaults.js",
+      "name": "./node_modules/react-static/node_modules/axios/lib/defaults.js",
       "index": 69,
       "index2": 71,
       "size": 2316,
@@ -11140,36 +11140,36 @@
         2
       ],
       "assets": [],
-      "issuer": "/home/runner/work/blaze/blaze/node_modules/axios/lib/axios.js",
+      "issuer": "/home/runner/work/blaze/blaze/node_modules/react-static/node_modules/axios/lib/axios.js",
       "issuerId": 95,
-      "issuerName": "./node_modules/axios/lib/axios.js",
+      "issuerName": "./node_modules/react-static/node_modules/axios/lib/axios.js",
       "failed": false,
       "errors": 0,
       "warnings": 0,
       "reasons": [
         {
           "moduleId": 95,
-          "moduleIdentifier": "/home/runner/work/blaze/blaze/node_modules/axios/lib/axios.js",
-          "module": "./node_modules/axios/lib/axios.js",
-          "moduleName": "./node_modules/axios/lib/axios.js",
+          "moduleIdentifier": "/home/runner/work/blaze/blaze/node_modules/react-static/node_modules/axios/lib/axios.js",
+          "module": "./node_modules/react-static/node_modules/axios/lib/axios.js",
+          "moduleName": "./node_modules/react-static/node_modules/axios/lib/axios.js",
           "type": "cjs require",
           "userRequest": "./defaults",
           "loc": "6:15-36"
         },
         {
           "moduleId": 97,
-          "moduleIdentifier": "/home/runner/work/blaze/blaze/node_modules/axios/lib/core/Axios.js",
-          "module": "./node_modules/axios/lib/core/Axios.js",
-          "moduleName": "./node_modules/axios/lib/core/Axios.js",
+          "moduleIdentifier": "/home/runner/work/blaze/blaze/node_modules/react-static/node_modules/axios/lib/core/Axios.js",
+          "module": "./node_modules/react-static/node_modules/axios/lib/core/Axios.js",
+          "moduleName": "./node_modules/react-static/node_modules/axios/lib/core/Axios.js",
           "type": "cjs require",
           "userRequest": "./../defaults",
           "loc": "3:15-39"
         },
         {
           "moduleId": 107,
-          "moduleIdentifier": "/home/runner/work/blaze/blaze/node_modules/axios/lib/core/dispatchRequest.js",
-          "module": "./node_modules/axios/lib/core/dispatchRequest.js",
-          "moduleName": "./node_modules/axios/lib/core/dispatchRequest.js",
+          "moduleIdentifier": "/home/runner/work/blaze/blaze/node_modules/react-static/node_modules/axios/lib/core/dispatchRequest.js",
+          "module": "./node_modules/react-static/node_modules/axios/lib/core/dispatchRequest.js",
+          "moduleName": "./node_modules/react-static/node_modules/axios/lib/core/dispatchRequest.js",
           "type": "cjs require",
           "userRequest": "../defaults",
           "loc": "6:15-37"
@@ -12295,8 +12295,8 @@
     },
     {
       "id": 42,
-      "identifier": "/home/runner/work/blaze/blaze/node_modules/axios/index.js",
-      "name": "./node_modules/axios/index.js",
+      "identifier": "/home/runner/work/blaze/blaze/node_modules/react-static/node_modules/axios/index.js",
+      "name": "./node_modules/react-static/node_modules/axios/index.js",
       "index": 63,
       "index2": 83,
       "size": 40,
@@ -12342,8 +12342,8 @@
     },
     {
       "id": 43,
-      "identifier": "/home/runner/work/blaze/blaze/node_modules/axios/lib/helpers/bind.js",
-      "name": "./node_modules/axios/lib/helpers/bind.js",
+      "identifier": "/home/runner/work/blaze/blaze/node_modules/react-static/node_modules/axios/lib/helpers/bind.js",
+      "name": "./node_modules/react-static/node_modules/axios/lib/helpers/bind.js",
       "index": 66,
       "index2": 58,
       "size": 256,
@@ -12355,27 +12355,27 @@
         2
       ],
       "assets": [],
-      "issuer": "/home/runner/work/blaze/blaze/node_modules/axios/lib/axios.js",
+      "issuer": "/home/runner/work/blaze/blaze/node_modules/react-static/node_modules/axios/lib/axios.js",
       "issuerId": 95,
-      "issuerName": "./node_modules/axios/lib/axios.js",
+      "issuerName": "./node_modules/react-static/node_modules/axios/lib/axios.js",
       "failed": false,
       "errors": 0,
       "warnings": 0,
       "reasons": [
         {
           "moduleId": 2,
-          "moduleIdentifier": "/home/runner/work/blaze/blaze/node_modules/axios/lib/utils.js",
-          "module": "./node_modules/axios/lib/utils.js",
-          "moduleName": "./node_modules/axios/lib/utils.js",
+          "moduleIdentifier": "/home/runner/work/blaze/blaze/node_modules/react-static/node_modules/axios/lib/utils.js",
+          "module": "./node_modules/react-static/node_modules/axios/lib/utils.js",
+          "moduleName": "./node_modules/react-static/node_modules/axios/lib/utils.js",
           "type": "cjs require",
           "userRequest": "./helpers/bind",
           "loc": "3:11-36"
         },
         {
           "moduleId": 95,
-          "moduleIdentifier": "/home/runner/work/blaze/blaze/node_modules/axios/lib/axios.js",
-          "module": "./node_modules/axios/lib/axios.js",
-          "moduleName": "./node_modules/axios/lib/axios.js",
+          "moduleIdentifier": "/home/runner/work/blaze/blaze/node_modules/react-static/node_modules/axios/lib/axios.js",
+          "module": "./node_modules/react-static/node_modules/axios/lib/axios.js",
+          "moduleName": "./node_modules/react-static/node_modules/axios/lib/axios.js",
           "type": "cjs require",
           "userRequest": "./helpers/bind",
           "loc": "4:11-36"
@@ -12389,8 +12389,8 @@
     },
     {
       "id": 44,
-      "identifier": "/home/runner/work/blaze/blaze/node_modules/axios/lib/adapters/xhr.js",
-      "name": "./node_modules/axios/lib/adapters/xhr.js",
+      "identifier": "/home/runner/work/blaze/blaze/node_modules/react-static/node_modules/axios/lib/adapters/xhr.js",
+      "name": "./node_modules/react-static/node_modules/axios/lib/adapters/xhr.js",
       "index": 71,
       "index2": 70,
       "size": 6175,
@@ -12402,27 +12402,27 @@
         2
       ],
       "assets": [],
-      "issuer": "/home/runner/work/blaze/blaze/node_modules/axios/lib/defaults.js",
+      "issuer": "/home/runner/work/blaze/blaze/node_modules/react-static/node_modules/axios/lib/defaults.js",
       "issuerId": 20,
-      "issuerName": "./node_modules/axios/lib/defaults.js",
+      "issuerName": "./node_modules/react-static/node_modules/axios/lib/defaults.js",
       "failed": false,
       "errors": 0,
       "warnings": 0,
       "reasons": [
         {
           "moduleId": 20,
-          "moduleIdentifier": "/home/runner/work/blaze/blaze/node_modules/axios/lib/defaults.js",
-          "module": "./node_modules/axios/lib/defaults.js",
-          "moduleName": "./node_modules/axios/lib/defaults.js",
+          "moduleIdentifier": "/home/runner/work/blaze/blaze/node_modules/react-static/node_modules/axios/lib/defaults.js",
+          "module": "./node_modules/react-static/node_modules/axios/lib/defaults.js",
+          "moduleName": "./node_modules/react-static/node_modules/axios/lib/defaults.js",
           "type": "cjs require",
           "userRequest": "./adapters/xhr",
           "loc": "20:14-39"
         },
         {
           "moduleId": 20,
-          "moduleIdentifier": "/home/runner/work/blaze/blaze/node_modules/axios/lib/defaults.js",
-          "module": "./node_modules/axios/lib/defaults.js",
-          "moduleName": "./node_modules/axios/lib/defaults.js",
+          "moduleIdentifier": "/home/runner/work/blaze/blaze/node_modules/react-static/node_modules/axios/lib/defaults.js",
+          "module": "./node_modules/react-static/node_modules/axios/lib/defaults.js",
+          "moduleName": "./node_modules/react-static/node_modules/axios/lib/defaults.js",
           "type": "cjs require",
           "userRequest": "./adapters/http",
           "loc": "23:14-40"
@@ -12436,8 +12436,8 @@
     },
     {
       "id": 45,
-      "identifier": "/home/runner/work/blaze/blaze/node_modules/axios/lib/core/createError.js",
-      "name": "./node_modules/axios/lib/core/createError.js",
+      "identifier": "/home/runner/work/blaze/blaze/node_modules/react-static/node_modules/axios/lib/core/createError.js",
+      "name": "./node_modules/react-static/node_modules/axios/lib/core/createError.js",
       "index": 73,
       "index2": 63,
       "size": 625,
@@ -12449,27 +12449,27 @@
         2
       ],
       "assets": [],
-      "issuer": "/home/runner/work/blaze/blaze/node_modules/axios/lib/adapters/xhr.js",
+      "issuer": "/home/runner/work/blaze/blaze/node_modules/react-static/node_modules/axios/lib/adapters/xhr.js",
       "issuerId": 44,
-      "issuerName": "./node_modules/axios/lib/adapters/xhr.js",
+      "issuerName": "./node_modules/react-static/node_modules/axios/lib/adapters/xhr.js",
       "failed": false,
       "errors": 0,
       "warnings": 0,
       "reasons": [
         {
           "moduleId": 44,
-          "moduleIdentifier": "/home/runner/work/blaze/blaze/node_modules/axios/lib/adapters/xhr.js",
-          "module": "./node_modules/axios/lib/adapters/xhr.js",
-          "moduleName": "./node_modules/axios/lib/adapters/xhr.js",
+          "moduleIdentifier": "/home/runner/work/blaze/blaze/node_modules/react-static/node_modules/axios/lib/adapters/xhr.js",
+          "module": "./node_modules/react-static/node_modules/axios/lib/adapters/xhr.js",
+          "moduleName": "./node_modules/react-static/node_modules/axios/lib/adapters/xhr.js",
           "type": "cjs require",
           "userRequest": "../core/createError",
           "loc": "8:18-48"
         },
         {
           "moduleId": 99,
-          "moduleIdentifier": "/home/runner/work/blaze/blaze/node_modules/axios/lib/core/settle.js",
-          "module": "./node_modules/axios/lib/core/settle.js",
-          "moduleName": "./node_modules/axios/lib/core/settle.js",
+          "moduleIdentifier": "/home/runner/work/blaze/blaze/node_modules/react-static/node_modules/axios/lib/core/settle.js",
+          "module": "./node_modules/react-static/node_modules/axios/lib/core/settle.js",
+          "moduleName": "./node_modules/react-static/node_modules/axios/lib/core/settle.js",
           "type": "cjs require",
           "userRequest": "./createError",
           "loc": "3:18-42"
@@ -12483,8 +12483,8 @@
     },
     {
       "id": 46,
-      "identifier": "/home/runner/work/blaze/blaze/node_modules/axios/lib/cancel/isCancel.js",
-      "name": "./node_modules/axios/lib/cancel/isCancel.js",
+      "identifier": "/home/runner/work/blaze/blaze/node_modules/react-static/node_modules/axios/lib/cancel/isCancel.js",
+      "name": "./node_modules/react-static/node_modules/axios/lib/cancel/isCancel.js",
       "index": 83,
       "index2": 74,
       "size": 102,
@@ -12496,27 +12496,27 @@
         2
       ],
       "assets": [],
-      "issuer": "/home/runner/work/blaze/blaze/node_modules/axios/lib/axios.js",
+      "issuer": "/home/runner/work/blaze/blaze/node_modules/react-static/node_modules/axios/lib/axios.js",
       "issuerId": 95,
-      "issuerName": "./node_modules/axios/lib/axios.js",
+      "issuerName": "./node_modules/react-static/node_modules/axios/lib/axios.js",
       "failed": false,
       "errors": 0,
       "warnings": 0,
       "reasons": [
         {
           "moduleId": 95,
-          "moduleIdentifier": "/home/runner/work/blaze/blaze/node_modules/axios/lib/axios.js",
-          "module": "./node_modules/axios/lib/axios.js",
-          "moduleName": "./node_modules/axios/lib/axios.js",
+          "moduleIdentifier": "/home/runner/work/blaze/blaze/node_modules/react-static/node_modules/axios/lib/axios.js",
+          "module": "./node_modules/react-static/node_modules/axios/lib/axios.js",
+          "moduleName": "./node_modules/react-static/node_modules/axios/lib/axios.js",
           "type": "cjs require",
           "userRequest": "./cancel/isCancel",
           "loc": "41:17-45"
         },
         {
           "moduleId": 107,
-          "moduleIdentifier": "/home/runner/work/blaze/blaze/node_modules/axios/lib/core/dispatchRequest.js",
-          "module": "./node_modules/axios/lib/core/dispatchRequest.js",
-          "moduleName": "./node_modules/axios/lib/core/dispatchRequest.js",
+          "moduleIdentifier": "/home/runner/work/blaze/blaze/node_modules/react-static/node_modules/axios/lib/core/dispatchRequest.js",
+          "module": "./node_modules/react-static/node_modules/axios/lib/core/dispatchRequest.js",
+          "moduleName": "./node_modules/react-static/node_modules/axios/lib/core/dispatchRequest.js",
           "type": "cjs require",
           "userRequest": "../cancel/isCancel",
           "loc": "5:15-44"
@@ -12530,8 +12530,8 @@
     },
     {
       "id": 47,
-      "identifier": "/home/runner/work/blaze/blaze/node_modules/axios/lib/cancel/Cancel.js",
-      "name": "./node_modules/axios/lib/cancel/Cancel.js",
+      "identifier": "/home/runner/work/blaze/blaze/node_modules/react-static/node_modules/axios/lib/cancel/Cancel.js",
+      "name": "./node_modules/react-static/node_modules/axios/lib/cancel/Cancel.js",
       "index": 86,
       "index2": 79,
       "size": 385,
@@ -12543,27 +12543,27 @@
         2
       ],
       "assets": [],
-      "issuer": "/home/runner/work/blaze/blaze/node_modules/axios/lib/axios.js",
+      "issuer": "/home/runner/work/blaze/blaze/node_modules/react-static/node_modules/axios/lib/axios.js",
       "issuerId": 95,
-      "issuerName": "./node_modules/axios/lib/axios.js",
+      "issuerName": "./node_modules/react-static/node_modules/axios/lib/axios.js",
       "failed": false,
       "errors": 0,
       "warnings": 0,
       "reasons": [
         {
           "moduleId": 95,
-          "moduleIdentifier": "/home/runner/work/blaze/blaze/node_modules/axios/lib/axios.js",
-          "module": "./node_modules/axios/lib/axios.js",
-          "moduleName": "./node_modules/axios/lib/axios.js",
+          "moduleIdentifier": "/home/runner/work/blaze/blaze/node_modules/react-static/node_modules/axios/lib/axios.js",
+          "module": "./node_modules/react-static/node_modules/axios/lib/axios.js",
+          "moduleName": "./node_modules/react-static/node_modules/axios/lib/axios.js",
           "type": "cjs require",
           "userRequest": "./cancel/Cancel",
           "loc": "39:15-41"
         },
         {
           "moduleId": 111,
-          "moduleIdentifier": "/home/runner/work/blaze/blaze/node_modules/axios/lib/cancel/CancelToken.js",
-          "module": "./node_modules/axios/lib/cancel/CancelToken.js",
-          "moduleName": "./node_modules/axios/lib/cancel/CancelToken.js",
+          "moduleIdentifier": "/home/runner/work/blaze/blaze/node_modules/react-static/node_modules/axios/lib/cancel/CancelToken.js",
+          "module": "./node_modules/react-static/node_modules/axios/lib/cancel/CancelToken.js",
+          "moduleName": "./node_modules/react-static/node_modules/axios/lib/cancel/CancelToken.js",
           "type": "cjs require",
           "userRequest": "./Cancel",
           "loc": "3:13-32"
@@ -14544,8 +14544,8 @@
     },
     {
       "id": 95,
-      "identifier": "/home/runner/work/blaze/blaze/node_modules/axios/lib/axios.js",
-      "name": "./node_modules/axios/lib/axios.js",
+      "identifier": "/home/runner/work/blaze/blaze/node_modules/react-static/node_modules/axios/lib/axios.js",
+      "name": "./node_modules/react-static/node_modules/axios/lib/axios.js",
       "index": 64,
       "index2": 82,
       "size": 1368,
@@ -14557,18 +14557,18 @@
         2
       ],
       "assets": [],
-      "issuer": "/home/runner/work/blaze/blaze/node_modules/axios/index.js",
+      "issuer": "/home/runner/work/blaze/blaze/node_modules/react-static/node_modules/axios/index.js",
       "issuerId": 42,
-      "issuerName": "./node_modules/axios/index.js",
+      "issuerName": "./node_modules/react-static/node_modules/axios/index.js",
       "failed": false,
       "errors": 0,
       "warnings": 0,
       "reasons": [
         {
           "moduleId": 42,
-          "moduleIdentifier": "/home/runner/work/blaze/blaze/node_modules/axios/index.js",
-          "module": "./node_modules/axios/index.js",
-          "moduleName": "./node_modules/axios/index.js",
+          "moduleIdentifier": "/home/runner/work/blaze/blaze/node_modules/react-static/node_modules/axios/index.js",
+          "module": "./node_modules/react-static/node_modules/axios/index.js",
+          "moduleName": "./node_modules/react-static/node_modules/axios/index.js",
           "type": "cjs require",
           "userRequest": "./lib/axios",
           "loc": "1:17-39"
@@ -14595,18 +14595,18 @@
         2
       ],
       "assets": [],
-      "issuer": "/home/runner/work/blaze/blaze/node_modules/axios/lib/utils.js",
+      "issuer": "/home/runner/work/blaze/blaze/node_modules/react-static/node_modules/axios/lib/utils.js",
       "issuerId": 2,
-      "issuerName": "./node_modules/axios/lib/utils.js",
+      "issuerName": "./node_modules/react-static/node_modules/axios/lib/utils.js",
       "failed": false,
       "errors": 0,
       "warnings": 0,
       "reasons": [
         {
           "moduleId": 2,
-          "moduleIdentifier": "/home/runner/work/blaze/blaze/node_modules/axios/lib/utils.js",
-          "module": "./node_modules/axios/lib/utils.js",
-          "moduleName": "./node_modules/axios/lib/utils.js",
+          "moduleIdentifier": "/home/runner/work/blaze/blaze/node_modules/react-static/node_modules/axios/lib/utils.js",
+          "module": "./node_modules/react-static/node_modules/axios/lib/utils.js",
+          "moduleName": "./node_modules/react-static/node_modules/axios/lib/utils.js",
           "type": "cjs require",
           "userRequest": "is-buffer",
           "loc": "4:15-35"
@@ -14620,8 +14620,8 @@
     },
     {
       "id": 97,
-      "identifier": "/home/runner/work/blaze/blaze/node_modules/axios/lib/core/Axios.js",
-      "name": "./node_modules/axios/lib/core/Axios.js",
+      "identifier": "/home/runner/work/blaze/blaze/node_modules/react-static/node_modules/axios/lib/core/Axios.js",
+      "name": "./node_modules/react-static/node_modules/axios/lib/core/Axios.js",
       "index": 68,
       "index2": 78,
       "size": 2448,
@@ -14633,18 +14633,18 @@
         2
       ],
       "assets": [],
-      "issuer": "/home/runner/work/blaze/blaze/node_modules/axios/lib/axios.js",
+      "issuer": "/home/runner/work/blaze/blaze/node_modules/react-static/node_modules/axios/lib/axios.js",
       "issuerId": 95,
-      "issuerName": "./node_modules/axios/lib/axios.js",
+      "issuerName": "./node_modules/react-static/node_modules/axios/lib/axios.js",
       "failed": false,
       "errors": 0,
       "warnings": 0,
       "reasons": [
         {
           "moduleId": 95,
-          "moduleIdentifier": "/home/runner/work/blaze/blaze/node_modules/axios/lib/axios.js",
-          "module": "./node_modules/axios/lib/axios.js",
-          "moduleName": "./node_modules/axios/lib/axios.js",
+          "moduleIdentifier": "/home/runner/work/blaze/blaze/node_modules/react-static/node_modules/axios/lib/axios.js",
+          "module": "./node_modules/react-static/node_modules/axios/lib/axios.js",
+          "moduleName": "./node_modules/react-static/node_modules/axios/lib/axios.js",
           "type": "cjs require",
           "userRequest": "./core/Axios",
           "loc": "5:12-35"
@@ -14658,8 +14658,8 @@
     },
     {
       "id": 98,
-      "identifier": "/home/runner/work/blaze/blaze/node_modules/axios/lib/helpers/normalizeHeaderName.js",
-      "name": "./node_modules/axios/lib/helpers/normalizeHeaderName.js",
+      "identifier": "/home/runner/work/blaze/blaze/node_modules/react-static/node_modules/axios/lib/helpers/normalizeHeaderName.js",
+      "name": "./node_modules/react-static/node_modules/axios/lib/helpers/normalizeHeaderName.js",
       "index": 70,
       "index2": 61,
       "size": 357,
@@ -14671,18 +14671,18 @@
         2
       ],
       "assets": [],
-      "issuer": "/home/runner/work/blaze/blaze/node_modules/axios/lib/defaults.js",
+      "issuer": "/home/runner/work/blaze/blaze/node_modules/react-static/node_modules/axios/lib/defaults.js",
       "issuerId": 20,
-      "issuerName": "./node_modules/axios/lib/defaults.js",
+      "issuerName": "./node_modules/react-static/node_modules/axios/lib/defaults.js",
       "failed": false,
       "errors": 0,
       "warnings": 0,
       "reasons": [
         {
           "moduleId": 20,
-          "moduleIdentifier": "/home/runner/work/blaze/blaze/node_modules/axios/lib/defaults.js",
-          "module": "./node_modules/axios/lib/defaults.js",
-          "moduleName": "./node_modules/axios/lib/defaults.js",
+          "moduleIdentifier": "/home/runner/work/blaze/blaze/node_modules/react-static/node_modules/axios/lib/defaults.js",
+          "module": "./node_modules/react-static/node_modules/axios/lib/defaults.js",
+          "moduleName": "./node_modules/react-static/node_modules/axios/lib/defaults.js",
           "type": "cjs require",
           "userRequest": "./helpers/normalizeHeaderName",
           "loc": "4:26-66"
@@ -14696,8 +14696,8 @@
     },
     {
       "id": 99,
-      "identifier": "/home/runner/work/blaze/blaze/node_modules/axios/lib/core/settle.js",
-      "name": "./node_modules/axios/lib/core/settle.js",
+      "identifier": "/home/runner/work/blaze/blaze/node_modules/react-static/node_modules/axios/lib/core/settle.js",
+      "name": "./node_modules/react-static/node_modules/axios/lib/core/settle.js",
       "index": 72,
       "index2": 64,
       "size": 757,
@@ -14709,18 +14709,18 @@
         2
       ],
       "assets": [],
-      "issuer": "/home/runner/work/blaze/blaze/node_modules/axios/lib/adapters/xhr.js",
+      "issuer": "/home/runner/work/blaze/blaze/node_modules/react-static/node_modules/axios/lib/adapters/xhr.js",
       "issuerId": 44,
-      "issuerName": "./node_modules/axios/lib/adapters/xhr.js",
+      "issuerName": "./node_modules/react-static/node_modules/axios/lib/adapters/xhr.js",
       "failed": false,
       "errors": 0,
       "warnings": 0,
       "reasons": [
         {
           "moduleId": 44,
-          "moduleIdentifier": "/home/runner/work/blaze/blaze/node_modules/axios/lib/adapters/xhr.js",
-          "module": "./node_modules/axios/lib/adapters/xhr.js",
-          "moduleName": "./node_modules/axios/lib/adapters/xhr.js",
+          "moduleIdentifier": "/home/runner/work/blaze/blaze/node_modules/react-static/node_modules/axios/lib/adapters/xhr.js",
+          "module": "./node_modules/react-static/node_modules/axios/lib/adapters/xhr.js",
+          "moduleName": "./node_modules/react-static/node_modules/axios/lib/adapters/xhr.js",
           "type": "cjs require",
           "userRequest": "./../core/settle",
           "loc": "4:13-40"
@@ -14734,8 +14734,8 @@
     },
     {
       "id": 100,
-      "identifier": "/home/runner/work/blaze/blaze/node_modules/axios/lib/core/enhanceError.js",
-      "name": "./node_modules/axios/lib/core/enhanceError.js",
+      "identifier": "/home/runner/work/blaze/blaze/node_modules/react-static/node_modules/axios/lib/core/enhanceError.js",
+      "name": "./node_modules/react-static/node_modules/axios/lib/core/enhanceError.js",
       "index": 74,
       "index2": 62,
       "size": 592,
@@ -14747,18 +14747,18 @@
         2
       ],
       "assets": [],
-      "issuer": "/home/runner/work/blaze/blaze/node_modules/axios/lib/core/createError.js",
+      "issuer": "/home/runner/work/blaze/blaze/node_modules/react-static/node_modules/axios/lib/core/createError.js",
       "issuerId": 45,
-      "issuerName": "./node_modules/axios/lib/core/createError.js",
+      "issuerName": "./node_modules/react-static/node_modules/axios/lib/core/createError.js",
       "failed": false,
       "errors": 0,
       "warnings": 0,
       "reasons": [
         {
           "moduleId": 45,
-          "moduleIdentifier": "/home/runner/work/blaze/blaze/node_modules/axios/lib/core/createError.js",
-          "module": "./node_modules/axios/lib/core/createError.js",
-          "moduleName": "./node_modules/axios/lib/core/createError.js",
+          "moduleIdentifier": "/home/runner/work/blaze/blaze/node_modules/react-static/node_modules/axios/lib/core/createError.js",
+          "module": "./node_modules/react-static/node_modules/axios/lib/core/createError.js",
+          "moduleName": "./node_modules/react-static/node_modules/axios/lib/core/createError.js",
           "type": "cjs require",
           "userRequest": "./enhanceError",
           "loc": "3:19-44"
@@ -14772,8 +14772,8 @@
     },
     {
       "id": 101,
-      "identifier": "/home/runner/work/blaze/blaze/node_modules/axios/lib/helpers/buildURL.js",
-      "name": "./node_modules/axios/lib/helpers/buildURL.js",
+      "identifier": "/home/runner/work/blaze/blaze/node_modules/react-static/node_modules/axios/lib/helpers/buildURL.js",
+      "name": "./node_modules/react-static/node_modules/axios/lib/helpers/buildURL.js",
       "index": 75,
       "index2": 65,
       "size": 1576,
@@ -14785,18 +14785,18 @@
         2
       ],
       "assets": [],
-      "issuer": "/home/runner/work/blaze/blaze/node_modules/axios/lib/adapters/xhr.js",
+      "issuer": "/home/runner/work/blaze/blaze/node_modules/react-static/node_modules/axios/lib/adapters/xhr.js",
       "issuerId": 44,
-      "issuerName": "./node_modules/axios/lib/adapters/xhr.js",
+      "issuerName": "./node_modules/react-static/node_modules/axios/lib/adapters/xhr.js",
       "failed": false,
       "errors": 0,
       "warnings": 0,
       "reasons": [
         {
           "moduleId": 44,
-          "moduleIdentifier": "/home/runner/work/blaze/blaze/node_modules/axios/lib/adapters/xhr.js",
-          "module": "./node_modules/axios/lib/adapters/xhr.js",
-          "moduleName": "./node_modules/axios/lib/adapters/xhr.js",
+          "moduleIdentifier": "/home/runner/work/blaze/blaze/node_modules/react-static/node_modules/axios/lib/adapters/xhr.js",
+          "module": "./node_modules/react-static/node_modules/axios/lib/adapters/xhr.js",
+          "moduleName": "./node_modules/react-static/node_modules/axios/lib/adapters/xhr.js",
           "type": "cjs require",
           "userRequest": "./../helpers/buildURL",
           "loc": "5:15-47"
@@ -14810,8 +14810,8 @@
     },
     {
       "id": 102,
-      "identifier": "/home/runner/work/blaze/blaze/node_modules/axios/lib/helpers/parseHeaders.js",
-      "name": "./node_modules/axios/lib/helpers/parseHeaders.js",
+      "identifier": "/home/runner/work/blaze/blaze/node_modules/react-static/node_modules/axios/lib/helpers/parseHeaders.js",
+      "name": "./node_modules/react-static/node_modules/axios/lib/helpers/parseHeaders.js",
       "index": 76,
       "index2": 66,
       "size": 784,
@@ -14823,18 +14823,18 @@
         2
       ],
       "assets": [],
-      "issuer": "/home/runner/work/blaze/blaze/node_modules/axios/lib/adapters/xhr.js",
+      "issuer": "/home/runner/work/blaze/blaze/node_modules/react-static/node_modules/axios/lib/adapters/xhr.js",
       "issuerId": 44,
-      "issuerName": "./node_modules/axios/lib/adapters/xhr.js",
+      "issuerName": "./node_modules/react-static/node_modules/axios/lib/adapters/xhr.js",
       "failed": false,
       "errors": 0,
       "warnings": 0,
       "reasons": [
         {
           "moduleId": 44,
-          "moduleIdentifier": "/home/runner/work/blaze/blaze/node_modules/axios/lib/adapters/xhr.js",
-          "module": "./node_modules/axios/lib/adapters/xhr.js",
-          "moduleName": "./node_modules/axios/lib/adapters/xhr.js",
+          "moduleIdentifier": "/home/runner/work/blaze/blaze/node_modules/react-static/node_modules/axios/lib/adapters/xhr.js",
+          "module": "./node_modules/react-static/node_modules/axios/lib/adapters/xhr.js",
+          "moduleName": "./node_modules/react-static/node_modules/axios/lib/adapters/xhr.js",
           "type": "cjs require",
           "userRequest": "./../helpers/parseHeaders",
           "loc": "6:19-55"
@@ -14848,8 +14848,8 @@
     },
     {
       "id": 103,
-      "identifier": "/home/runner/work/blaze/blaze/node_modules/axios/lib/helpers/isURLSameOrigin.js",
-      "name": "./node_modules/axios/lib/helpers/isURLSameOrigin.js",
+      "identifier": "/home/runner/work/blaze/blaze/node_modules/react-static/node_modules/axios/lib/helpers/isURLSameOrigin.js",
+      "name": "./node_modules/react-static/node_modules/axios/lib/helpers/isURLSameOrigin.js",
       "index": 77,
       "index2": 67,
       "size": 2245,
@@ -14861,18 +14861,18 @@
         2
       ],
       "assets": [],
-      "issuer": "/home/runner/work/blaze/blaze/node_modules/axios/lib/adapters/xhr.js",
+      "issuer": "/home/runner/work/blaze/blaze/node_modules/react-static/node_modules/axios/lib/adapters/xhr.js",
       "issuerId": 44,
-      "issuerName": "./node_modules/axios/lib/adapters/xhr.js",
+      "issuerName": "./node_modules/react-static/node_modules/axios/lib/adapters/xhr.js",
       "failed": false,
       "errors": 0,
       "warnings": 0,
       "reasons": [
         {
           "moduleId": 44,
-          "moduleIdentifier": "/home/runner/work/blaze/blaze/node_modules/axios/lib/adapters/xhr.js",
-          "module": "./node_modules/axios/lib/adapters/xhr.js",
-          "moduleName": "./node_modules/axios/lib/adapters/xhr.js",
+          "moduleIdentifier": "/home/runner/work/blaze/blaze/node_modules/react-static/node_modules/axios/lib/adapters/xhr.js",
+          "module": "./node_modules/react-static/node_modules/axios/lib/adapters/xhr.js",
+          "moduleName": "./node_modules/react-static/node_modules/axios/lib/adapters/xhr.js",
           "type": "cjs require",
           "userRequest": "./../helpers/isURLSameOrigin",
           "loc": "7:22-61"
@@ -14886,8 +14886,8 @@
     },
     {
       "id": 104,
-      "identifier": "/home/runner/work/blaze/blaze/node_modules/axios/lib/helpers/btoa.js",
-      "name": "./node_modules/axios/lib/helpers/btoa.js",
+      "identifier": "/home/runner/work/blaze/blaze/node_modules/react-static/node_modules/axios/lib/helpers/btoa.js",
+      "name": "./node_modules/react-static/node_modules/axios/lib/helpers/btoa.js",
       "index": 78,
       "index2": 68,
       "size": 986,
@@ -14899,18 +14899,18 @@
         2
       ],
       "assets": [],
-      "issuer": "/home/runner/work/blaze/blaze/node_modules/axios/lib/adapters/xhr.js",
+      "issuer": "/home/runner/work/blaze/blaze/node_modules/react-static/node_modules/axios/lib/adapters/xhr.js",
       "issuerId": 44,
-      "issuerName": "./node_modules/axios/lib/adapters/xhr.js",
+      "issuerName": "./node_modules/react-static/node_modules/axios/lib/adapters/xhr.js",
       "failed": false,
       "errors": 0,
       "warnings": 0,
       "reasons": [
         {
           "moduleId": 44,
-          "moduleIdentifier": "/home/runner/work/blaze/blaze/node_modules/axios/lib/adapters/xhr.js",
-          "module": "./node_modules/axios/lib/adapters/xhr.js",
-          "moduleName": "./node_modules/axios/lib/adapters/xhr.js",
+          "moduleIdentifier": "/home/runner/work/blaze/blaze/node_modules/react-static/node_modules/axios/lib/adapters/xhr.js",
+          "module": "./node_modules/react-static/node_modules/axios/lib/adapters/xhr.js",
+          "moduleName": "./node_modules/react-static/node_modules/axios/lib/adapters/xhr.js",
           "type": "cjs require",
           "userRequest": "./../helpers/btoa",
           "loc": "9:89-117"
@@ -14924,8 +14924,8 @@
     },
     {
       "id": 105,
-      "identifier": "/home/runner/work/blaze/blaze/node_modules/axios/lib/helpers/cookies.js",
-      "name": "./node_modules/axios/lib/helpers/cookies.js",
+      "identifier": "/home/runner/work/blaze/blaze/node_modules/react-static/node_modules/axios/lib/helpers/cookies.js",
+      "name": "./node_modules/react-static/node_modules/axios/lib/helpers/cookies.js",
       "index": 79,
       "index2": 69,
       "size": 1365,
@@ -14937,18 +14937,18 @@
         2
       ],
       "assets": [],
-      "issuer": "/home/runner/work/blaze/blaze/node_modules/axios/lib/adapters/xhr.js",
+      "issuer": "/home/runner/work/blaze/blaze/node_modules/react-static/node_modules/axios/lib/adapters/xhr.js",
       "issuerId": 44,
-      "issuerName": "./node_modules/axios/lib/adapters/xhr.js",
+      "issuerName": "./node_modules/react-static/node_modules/axios/lib/adapters/xhr.js",
       "failed": false,
       "errors": 0,
       "warnings": 0,
       "reasons": [
         {
           "moduleId": 44,
-          "moduleIdentifier": "/home/runner/work/blaze/blaze/node_modules/axios/lib/adapters/xhr.js",
-          "module": "./node_modules/axios/lib/adapters/xhr.js",
-          "moduleName": "./node_modules/axios/lib/adapters/xhr.js",
+          "moduleIdentifier": "/home/runner/work/blaze/blaze/node_modules/react-static/node_modules/axios/lib/adapters/xhr.js",
+          "module": "./node_modules/react-static/node_modules/axios/lib/adapters/xhr.js",
+          "moduleName": "./node_modules/react-static/node_modules/axios/lib/adapters/xhr.js",
           "type": "cjs require",
           "userRequest": "./../helpers/cookies",
           "loc": "106:20-51"
@@ -14962,8 +14962,8 @@
     },
     {
       "id": 106,
-      "identifier": "/home/runner/work/blaze/blaze/node_modules/axios/lib/core/InterceptorManager.js",
-      "name": "./node_modules/axios/lib/core/InterceptorManager.js",
+      "identifier": "/home/runner/work/blaze/blaze/node_modules/react-static/node_modules/axios/lib/core/InterceptorManager.js",
+      "name": "./node_modules/react-static/node_modules/axios/lib/core/InterceptorManager.js",
       "index": 80,
       "index2": 72,
       "size": 1251,
@@ -14975,18 +14975,18 @@
         2
       ],
       "assets": [],
-      "issuer": "/home/runner/work/blaze/blaze/node_modules/axios/lib/core/Axios.js",
+      "issuer": "/home/runner/work/blaze/blaze/node_modules/react-static/node_modules/axios/lib/core/Axios.js",
       "issuerId": 97,
-      "issuerName": "./node_modules/axios/lib/core/Axios.js",
+      "issuerName": "./node_modules/react-static/node_modules/axios/lib/core/Axios.js",
       "failed": false,
       "errors": 0,
       "warnings": 0,
       "reasons": [
         {
           "moduleId": 97,
-          "moduleIdentifier": "/home/runner/work/blaze/blaze/node_modules/axios/lib/core/Axios.js",
-          "module": "./node_modules/axios/lib/core/Axios.js",
-          "moduleName": "./node_modules/axios/lib/core/Axios.js",
+          "moduleIdentifier": "/home/runner/work/blaze/blaze/node_modules/react-static/node_modules/axios/lib/core/Axios.js",
+          "module": "./node_modules/react-static/node_modules/axios/lib/core/Axios.js",
+          "moduleName": "./node_modules/react-static/node_modules/axios/lib/core/Axios.js",
           "type": "cjs require",
           "userRequest": "./InterceptorManager",
           "loc": "5:25-56"
@@ -15000,8 +15000,8 @@
     },
     {
       "id": 107,
-      "identifier": "/home/runner/work/blaze/blaze/node_modules/axios/lib/core/dispatchRequest.js",
-      "name": "./node_modules/axios/lib/core/dispatchRequest.js",
+      "identifier": "/home/runner/work/blaze/blaze/node_modules/react-static/node_modules/axios/lib/core/dispatchRequest.js",
+      "name": "./node_modules/react-static/node_modules/axios/lib/core/dispatchRequest.js",
       "index": 81,
       "index2": 75,
       "size": 1940,
@@ -15013,18 +15013,18 @@
         2
       ],
       "assets": [],
-      "issuer": "/home/runner/work/blaze/blaze/node_modules/axios/lib/core/Axios.js",
+      "issuer": "/home/runner/work/blaze/blaze/node_modules/react-static/node_modules/axios/lib/core/Axios.js",
       "issuerId": 97,
-      "issuerName": "./node_modules/axios/lib/core/Axios.js",
+      "issuerName": "./node_modules/react-static/node_modules/axios/lib/core/Axios.js",
       "failed": false,
       "errors": 0,
       "warnings": 0,
       "reasons": [
         {
           "moduleId": 97,
-          "moduleIdentifier": "/home/runner/work/blaze/blaze/node_modules/axios/lib/core/Axios.js",
-          "module": "./node_modules/axios/lib/core/Axios.js",
-          "moduleName": "./node_modules/axios/lib/core/Axios.js",
+          "moduleIdentifier": "/home/runner/work/blaze/blaze/node_modules/react-static/node_modules/axios/lib/core/Axios.js",
+          "module": "./node_modules/react-static/node_modules/axios/lib/core/Axios.js",
+          "moduleName": "./node_modules/react-static/node_modules/axios/lib/core/Axios.js",
           "type": "cjs require",
           "userRequest": "./dispatchRequest",
           "loc": "6:22-50"
@@ -15038,8 +15038,8 @@
     },
     {
       "id": 108,
-      "identifier": "/home/runner/work/blaze/blaze/node_modules/axios/lib/core/transformData.js",
-      "name": "./node_modules/axios/lib/core/transformData.js",
+      "identifier": "/home/runner/work/blaze/blaze/node_modules/react-static/node_modules/axios/lib/core/transformData.js",
+      "name": "./node_modules/react-static/node_modules/axios/lib/core/transformData.js",
       "index": 82,
       "index2": 73,
       "size": 550,
@@ -15051,18 +15051,18 @@
         2
       ],
       "assets": [],
-      "issuer": "/home/runner/work/blaze/blaze/node_modules/axios/lib/core/dispatchRequest.js",
+      "issuer": "/home/runner/work/blaze/blaze/node_modules/react-static/node_modules/axios/lib/core/dispatchRequest.js",
       "issuerId": 107,
-      "issuerName": "./node_modules/axios/lib/core/dispatchRequest.js",
+      "issuerName": "./node_modules/react-static/node_modules/axios/lib/core/dispatchRequest.js",
       "failed": false,
       "errors": 0,
       "warnings": 0,
       "reasons": [
         {
           "moduleId": 107,
-          "moduleIdentifier": "/home/runner/work/blaze/blaze/node_modules/axios/lib/core/dispatchRequest.js",
-          "module": "./node_modules/axios/lib/core/dispatchRequest.js",
-          "moduleName": "./node_modules/axios/lib/core/dispatchRequest.js",
+          "moduleIdentifier": "/home/runner/work/blaze/blaze/node_modules/react-static/node_modules/axios/lib/core/dispatchRequest.js",
+          "module": "./node_modules/react-static/node_modules/axios/lib/core/dispatchRequest.js",
+          "moduleName": "./node_modules/react-static/node_modules/axios/lib/core/dispatchRequest.js",
           "type": "cjs require",
           "userRequest": "./transformData",
           "loc": "4:20-46"
@@ -15076,8 +15076,8 @@
     },
     {
       "id": 109,
-      "identifier": "/home/runner/work/blaze/blaze/node_modules/axios/lib/helpers/isAbsoluteURL.js",
-      "name": "./node_modules/axios/lib/helpers/isAbsoluteURL.js",
+      "identifier": "/home/runner/work/blaze/blaze/node_modules/react-static/node_modules/axios/lib/helpers/isAbsoluteURL.js",
+      "name": "./node_modules/react-static/node_modules/axios/lib/helpers/isAbsoluteURL.js",
       "index": 84,
       "index2": 76,
       "size": 563,
@@ -15089,18 +15089,18 @@
         2
       ],
       "assets": [],
-      "issuer": "/home/runner/work/blaze/blaze/node_modules/axios/lib/core/Axios.js",
+      "issuer": "/home/runner/work/blaze/blaze/node_modules/react-static/node_modules/axios/lib/core/Axios.js",
       "issuerId": 97,
-      "issuerName": "./node_modules/axios/lib/core/Axios.js",
+      "issuerName": "./node_modules/react-static/node_modules/axios/lib/core/Axios.js",
       "failed": false,
       "errors": 0,
       "warnings": 0,
       "reasons": [
         {
           "moduleId": 97,
-          "moduleIdentifier": "/home/runner/work/blaze/blaze/node_modules/axios/lib/core/Axios.js",
-          "module": "./node_modules/axios/lib/core/Axios.js",
-          "moduleName": "./node_modules/axios/lib/core/Axios.js",
+          "moduleIdentifier": "/home/runner/work/blaze/blaze/node_modules/react-static/node_modules/axios/lib/core/Axios.js",
+          "module": "./node_modules/react-static/node_modules/axios/lib/core/Axios.js",
+          "moduleName": "./node_modules/react-static/node_modules/axios/lib/core/Axios.js",
           "type": "cjs require",
           "userRequest": "./../helpers/isAbsoluteURL",
           "loc": "7:20-57"
@@ -15114,8 +15114,8 @@
     },
     {
       "id": 110,
-      "identifier": "/home/runner/work/blaze/blaze/node_modules/axios/lib/helpers/combineURLs.js",
-      "name": "./node_modules/axios/lib/helpers/combineURLs.js",
+      "identifier": "/home/runner/work/blaze/blaze/node_modules/react-static/node_modules/axios/lib/helpers/combineURLs.js",
+      "name": "./node_modules/react-static/node_modules/axios/lib/helpers/combineURLs.js",
       "index": 85,
       "index2": 77,
       "size": 380,
@@ -15127,18 +15127,18 @@
         2
       ],
       "assets": [],
-      "issuer": "/home/runner/work/blaze/blaze/node_modules/axios/lib/core/Axios.js",
+      "issuer": "/home/runner/work/blaze/blaze/node_modules/react-static/node_modules/axios/lib/core/Axios.js",
       "issuerId": 97,
-      "issuerName": "./node_modules/axios/lib/core/Axios.js",
+      "issuerName": "./node_modules/react-static/node_modules/axios/lib/core/Axios.js",
       "failed": false,
       "errors": 0,
       "warnings": 0,
       "reasons": [
         {
           "moduleId": 97,
-          "moduleIdentifier": "/home/runner/work/blaze/blaze/node_modules/axios/lib/core/Axios.js",
-          "module": "./node_modules/axios/lib/core/Axios.js",
-          "moduleName": "./node_modules/axios/lib/core/Axios.js",
+          "moduleIdentifier": "/home/runner/work/blaze/blaze/node_modules/react-static/node_modules/axios/lib/core/Axios.js",
+          "module": "./node_modules/react-static/node_modules/axios/lib/core/Axios.js",
+          "moduleName": "./node_modules/react-static/node_modules/axios/lib/core/Axios.js",
           "type": "cjs require",
           "userRequest": "./../helpers/combineURLs",
           "loc": "8:18-53"
@@ -15152,8 +15152,8 @@
     },
     {
       "id": 111,
-      "identifier": "/home/runner/work/blaze/blaze/node_modules/axios/lib/cancel/CancelToken.js",
-      "name": "./node_modules/axios/lib/cancel/CancelToken.js",
+      "identifier": "/home/runner/work/blaze/blaze/node_modules/react-static/node_modules/axios/lib/cancel/CancelToken.js",
+      "name": "./node_modules/react-static/node_modules/axios/lib/cancel/CancelToken.js",
       "index": 87,
       "index2": 80,
       "size": 1240,
@@ -15165,18 +15165,18 @@
         2
       ],
       "assets": [],
-      "issuer": "/home/runner/work/blaze/blaze/node_modules/axios/lib/axios.js",
+      "issuer": "/home/runner/work/blaze/blaze/node_modules/react-static/node_modules/axios/lib/axios.js",
       "issuerId": 95,
-      "issuerName": "./node_modules/axios/lib/axios.js",
+      "issuerName": "./node_modules/react-static/node_modules/axios/lib/axios.js",
       "failed": false,
       "errors": 0,
       "warnings": 0,
       "reasons": [
         {
           "moduleId": 95,
-          "moduleIdentifier": "/home/runner/work/blaze/blaze/node_modules/axios/lib/axios.js",
-          "module": "./node_modules/axios/lib/axios.js",
-          "moduleName": "./node_modules/axios/lib/axios.js",
+          "moduleIdentifier": "/home/runner/work/blaze/blaze/node_modules/react-static/node_modules/axios/lib/axios.js",
+          "module": "./node_modules/react-static/node_modules/axios/lib/axios.js",
+          "moduleName": "./node_modules/react-static/node_modules/axios/lib/axios.js",
           "type": "cjs require",
           "userRequest": "./cancel/CancelToken",
           "loc": "40:20-51"
@@ -15190,8 +15190,8 @@
     },
     {
       "id": 112,
-      "identifier": "/home/runner/work/blaze/blaze/node_modules/axios/lib/helpers/spread.js",
-      "name": "./node_modules/axios/lib/helpers/spread.js",
+      "identifier": "/home/runner/work/blaze/blaze/node_modules/react-static/node_modules/axios/lib/helpers/spread.js",
+      "name": "./node_modules/react-static/node_modules/axios/lib/helpers/spread.js",
       "index": 88,
       "index2": 81,
       "size": 564,
@@ -15203,18 +15203,18 @@
         2
       ],
       "assets": [],
-      "issuer": "/home/runner/work/blaze/blaze/node_modules/axios/lib/axios.js",
+      "issuer": "/home/runner/work/blaze/blaze/node_modules/react-static/node_modules/axios/lib/axios.js",
       "issuerId": 95,
-      "issuerName": "./node_modules/axios/lib/axios.js",
+      "issuerName": "./node_modules/react-static/node_modules/axios/lib/axios.js",
       "failed": false,
       "errors": 0,
       "warnings": 0,
       "reasons": [
         {
           "moduleId": 95,
-          "moduleIdentifier": "/home/runner/work/blaze/blaze/node_modules/axios/lib/axios.js",
-          "module": "./node_modules/axios/lib/axios.js",
-          "moduleName": "./node_modules/axios/lib/axios.js",
+          "moduleIdentifier": "/home/runner/work/blaze/blaze/node_modules/react-static/node_modules/axios/lib/axios.js",
+          "module": "./node_modules/react-static/node_modules/axios/lib/axios.js",
+          "moduleName": "./node_modules/react-static/node_modules/axios/lib/axios.js",
           "type": "cjs require",
           "userRequest": "./helpers/spread",
           "loc": "47:15-42"
