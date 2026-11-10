@@ -11,7 +11,66 @@ import {spring, presets, Motion, StaggeredMotion,TransitionMotion}  from 'react-
 import Waypoint from 'react-waypoint';
 import createHistory from "history/createBrowserHistory"
 
-const history = createHistory();
+// Only create browser history in the browser; this module is also loaded
+// during the static (Node) prerender, where there is no DOM.
+const history = typeof window !== 'undefined' ? createHistory() : null;
+
+const LAB_URL = 'https://www.engineering.pitt.edu/subsites/Labs/sml/profiles/team/chase-rock/';
+
+const ME = 'Rock CG';
+
+// Newest first
+const PUBLICATIONS = [
+  {
+    year: 2026,
+    authors: ['Rock CG', 'Kim H', 'Dick JF', 'Chang YH'],
+    title: 'Blindfolded hypogravity adaptation differentially affects motor and cognitive systems',
+    journal: 'Frontiers in Psychology',
+    details: '17, 1729003',
+    doi: '10.3389/fpsyg.2026.1729003',
+  },
+  {
+    year: 2024,
+    authors: ['Rock CG', 'Kwak ST', 'Luo A', 'Yang X', 'Yun K', 'Chang YH'],
+    title: 'Realizing the gravity of the simulation: adaptation to simulated hypogravity leads to altered predictive control',
+    journal: 'Frontiers in Physiology',
+    details: '15, 1397016',
+    doi: '10.3389/fphys.2024.1397016',
+  },
+  {
+    year: 2024,
+    authors: ['Herrin KR', 'Kwak ST', 'Rock CG', 'Chang YH'],
+    title: 'Gait quality in prosthesis users is reflected by force-based metrics when learning to walk on a new research-grade powered prosthesis',
+    journal: 'Frontiers in Rehabilitation Sciences',
+    details: '5, 1339856',
+    doi: '10.3389/fresc.2024.1339856',
+  },
+  {
+    year: 2024,
+    authors: ['Herrin KR', 'Kwak ST', 'Rock CG', 'Chang YH'],
+    title: 'Identifying gait quality metrics sensitive to changes in lower limb constraint',
+    journal: 'Cogent Engineering',
+    details: '11(1), 2312697',
+    doi: '10.1080/23311916.2024.2312697',
+  },
+  {
+    year: 2018,
+    authors: ['Rock CG', 'Marmelat V', 'Yentes JM', 'Siu KC', 'Takahashi KZ'],
+    title: 'Interaction between step-to-step variability and metabolic cost of transport during human walking',
+    journal: 'Journal of Experimental Biology',
+    details: '221, jeb181834',
+    doi: '10.1242/jeb.181834',
+  },
+  {
+    year: 2018,
+    authors: ['Rock CG', 'Wurdeman SR', 'Stergiou N', 'Takahashi KZ'],
+    title: 'Stride-to-stride fluctuations in transtibial amputees are not affected by changes in push-off mechanics from using different prostheses',
+    journal: 'PLOS ONE',
+    details: '13(10), e0205098',
+    doi: '10.1371/journal.pone.0205098',
+  },
+];
+
 
 class HomePage extends Component {
 
@@ -22,6 +81,7 @@ class HomePage extends Component {
       logo: false,
       main_logo: false,
       name: false,
+      phd: false,
       biomechanics: false,
       neuroscience: false,
       face: false
@@ -44,19 +104,23 @@ class HomePage extends Component {
     }, 1000);
     
     setTimeout(function() {
+      self.setState({phd: true});
+    }, 1250);
+
+    setTimeout(function() {
       console.log("biomechanics");
       self.setState({biomechanics: true});
-    }, 1250);
+    }, 1450);
 
     setTimeout(function() {
       console.log("neuroscience");
       self.setState({neuroscience: true});
-    }, 1450);
+    }, 1650);
 
     setTimeout(function() {
       console.log("face");
       self.setState({face: true});
-    }, 1700);
+    }, 1900);
     if (pathname.length){
       setTimeout(function() {
         console.log("scroller");
@@ -76,19 +140,19 @@ class HomePage extends Component {
   }
 
   _setMessage(msg) {
-    history.replace("/" + msg);
+    history && history.replace("/" + msg);
   }
 
   _onEnter(msg, object) {
     if (object.previousPosition == 'above') {
-      history.replace("/"+msg);
+      history && history.replace("/"+msg);
     }
   }
 
   _onLeave(msg, object) {
     if (object.currentPosition == 'above') {
       // history.push("/" + msg);
-      history.replace("/"+msg);
+      history && history.replace("/"+msg);
     }
   }
 
@@ -97,6 +161,7 @@ class HomePage extends Component {
       pathname,
       logo,
       name,
+      phd,
       biomechanics,
       neuroscience,
       face,
@@ -180,9 +245,9 @@ class HomePage extends Component {
               : <h1 style={{ opacity: 0 }} className={'big_name'}>CHASE G ROCK</h1>
             }
 
-            { biomechanics ?
+            { phd ?
               <Motion
-                key="biomechanics"
+                key="phd"
                 defaultStyle={{x: 100, opacity: 0}}
                 style={{x: spring(0, presets.gentle), opacity: spring(1, presets.gentle)}}>
                 {  function (name_style) {
@@ -194,11 +259,32 @@ class HomePage extends Component {
                             transform: `translateY(${name_style.x}px)`,
                             opacity: name_style.opacity
                           }}
-                      >Biomechanics, M.S.</h2>
+                      >Applied Physiology, Ph.D.</h2>
                   )
                 }}
               </Motion>
-              : <h2 className={'subheader'} style={{ opacity: 0 }}>Biomechanics, M.S.</h2>
+              : <h2 className={'subheader'} style={{ opacity: 0 }}>Applied Physiology, Ph.D.</h2>
+            }
+
+            { biomechanics ?
+              <Motion
+                key="biomechanics"
+                defaultStyle={{x: 100, opacity: 0}}
+                style={{x: spring(0, presets.gentle), opacity: spring(1, presets.gentle)}}>
+                {  function (name_style) {
+                  return (
+                    <h2
+                      className={'subheader smaller'}
+                      style={{
+                            WebkitTransform: `translateY(${name_style.x}px)`,
+                            transform: `translateY(${name_style.x}px)`,
+                            opacity: name_style.opacity
+                          }}
+                      >Exercise Science, M.S.</h2>
+                  )
+                }}
+              </Motion>
+              : <h2 className={'subheader smaller'} style={{ opacity: 0 }}>Exercise Science, M.S.</h2>
             }
 
             { neuroscience ?
@@ -253,11 +339,15 @@ class HomePage extends Component {
           <div className={'bio_wrapper'}>
             <div id="bio" className={'wrapper'}>
               <h3 className={'bio_heading'}>Bio</h3>
-              <p>Currently a PhD student at the Georgia Institute of Technology, Chase is studying under Dr. Young-Hui Chang. Chase is in the Applied Physiology program, which specializes in investigating questions related to the physiology of movement. As a member of the Comparative Neuromechanics Laboratory, Chase’s PhD research involves understanding the body-wide adaptation to novel environments, such as reduced gravity. </p>
+              <p>I am currently a member of the <a href={LAB_URL} target="_blank" rel="noopener noreferrer">Sensorimotor Learning Laboratory</a> at the University of Pittsburgh. I joined the lab in January 2026 as a Post-doctoral Scholar under a T32 for training in the Neurobiology of Neurological Disease. Prior to joining the lab, I completed my Ph.D. in Applied Physiology at Georgia Tech, where I worked with Dr. Young-Hui Chang on understanding the cognitive and motor aspects of sensorimotor adaptation to altered gravity. Previously, I worked with Dr. Kota Takahashi at the University of Nebraska at Omaha, where I investigated gait variability, energy expenditure, and prosthesis use, earning a M.S. in Exercise Science preceded by a B.S. in Neuroscience.</p>
 
-              <p>Prior to starting at Georgia Tech, Chase received his Master’s degree in Exercise Physiology in 2017 from the Department of Biomechanics at the University of Nebraska at Omaha. With Dr. Kota Takahashi as his mentor, Chase completed a project that aimed to detect how changes in energy expenditure might be related to the variability of a person’s walking pattern.</p>
+              <p>I am passionate about understanding how people gain motor expertise: whether it's an athlete becoming an elite player or a patient learning to walk in the way that's best for them. My projects combine principles and techniques from neuroscience, biomechanics, and psychology to evaluate the cognitive and motor aspects of learning and predict who may become an expert in the future.</p>
 
-              <a className={'cv_button'} href="/CRock_CV_08202018.pdf"><h4>Curriculum Vitae</h4></a>
+              <h3 className={'bio_heading'}>Future Plans</h3>
+              <p>I am on the academic track: I love working in the lab and collaborating with fellow scientists to satisfy our shared curiosities and solve enigmatic problems. I also seek out opportunities to foster student scientists' research skills by promoting their active involvement in lab activities. I look forward to becoming a faculty member, studying the factors facilitating human motor learning as an independent researcher.</p>
+
+              <a className={'cv_button'} href="/chase_g_rock_cv.pdf" target="_blank" rel="noopener noreferrer"><h4>Curriculum Vitae</h4></a>
+              <a className={'cv_button'} href={LAB_URL} target="_blank" rel="noopener noreferrer"><h4>Sensorimotor Learning Lab</h4></a>
             </div>
           </div>
         </Element>
@@ -270,66 +360,23 @@ class HomePage extends Component {
           <div className={'research_wrapper'}>
             <div className={'wrapper'}>
               <h3 className={'research_heading'}>Research</h3>
-              
-              <h4>Presentations</h4>
 
-              <div className={'presentation'}>
-                <p>May 2017 - <i>Relationship Between Step-to-Step Variability and Metabolic Cost of Transport in Human Walking</i>, <a href="https://www.unomaha.edu/college-of-education/cobre/events-outreach/conference.php" target="_blank">2nd Annual Human Movement Variability Conference,</a> <a href="http://www.unomaha.edu/" target="_blank">University of Nebraska at Omaha,</a> Omaha, NE <br /></p>
-              </div>
+              <h4>Publications</h4>
 
-              <div className={'presentation'}>
-                <p>April 2017 - <i>Relationship Between Step-to-Step Variability and Metabolic Cost of Transport in Human Walking</i>, <a href="https://sites.google.com/site/asbrockymountain/about-us" target="_blank">7th Annual Meeting of the Rocky Mountain American Society of Biomechanics,</a> Estes Park, CO <br /></p>
-              </div>
-
-              <div className={'presentation'}>
-                <p>April 2017 - <i>Efficient Variability: Linking Fractal Walking Patterns with Metabolic Energy Savings</i>, <a href="https://nebraskaacademyofsciences.wildapricot.org/" target="_blank">Nebraska Academy of Sciences Annual Meeting,</a> <a href="http://www.unl.edu/" target="_blank">University of Nebraska at Lincoln,</a> Lincoln, NE <br /></p>
-              </div>
-
-              <div className={'presentation'}>
-                <p>March 2017 - <i>Efficient Variability: Linking Fractal Walking Patterns with Metabolic Energy Savings</i>, <a href="https://www.unomaha.edu/office-of-research-and-creative-activity/students/research-and-creative-activity-fair.php" target="_blank">Research and Creative Activity Fair,</a> <a href="http://www.unomaha.edu/" target="_blank">University of Nebraska at Omaha,</a> Omaha, NE <br /></p>
-              </div>
-
-              <div className={'presentation'}>
-                <p>October 2016 - <i>Relationship Between Metabolic Cost of Transport and Stride-to-Stride Variability</i>, <a href="http://nric.nebraska.edu/" target="_blank">Symposium on Biomechanics,</a> <a href="http://www.unomaha.edu/" target="_blank">University of Nebraska at Omaha,</a> Omaha, NE <br /></p>
-
-                <p><a className={'presentation_button'} href="/ChaseRock_UNOSymposium_2016.pdf">Poster</a></p>
-              </div>
-
-
-              <div className={'presentation'}>
-                <p>August 2016 - <i>Relationship Between Prosthetic Push-Off Work And Stride-To-Stride Fluctuations In Transtibial Prosthesis Users</i> <br />
-                <a href="http://asb2016.asbweb.org/" target="_blank"> 40th Annual Meeting of the American Society of Biomechanics,</a> Raleigh, NC</p>
-
-                <p><a className={'presentation_button'} href="/ChaseRock_ASB 2016_poster.pdf">Poster</a>
-                <a className={'presentation_button'} href="/ChaseRock_ASB2016_abstract.pdf">Abstract</a></p>
-              </div>
-
-              <div className={'presentation'}>
-                <p>June 2016 - <i>Metabolic Cost of Transport and the Persistence of Stride-to-Stride Fluctuations in Human Walking</i> <br />
-                <a href="http://www.unomaha.edu/college-of-education/cobre/community-engagement/research-day.php" target="_blank"> Human Movement Variability Conference,</a> Omaha, NE</p>
-              </div>
-
-              <div className={'presentation'}>
-                <p>April 2016 – <i>Metabolic Cost of Transport and the Persistence of Stride-to-Stride Fluctuations in Human Walking</i> <br />
-                <a href="https://sites.google.com/site/asbrockymountain/home" target="_blank"> 6th Annual Meeting of the Rocky Mountain American Society of Biomechanics,</a> Estes Park, CO</p>
-                <p><a className={'presentation_button'} href="/ChaseRock_RMASB_2016_poster.pdf">Poster</a>
-                <a className={'presentation_button'} href="/ChaseRock_RMASB_2016_abstract.pdf">Abstract</a></p>
-              </div>
-
-              <div className={'presentation'}>
-                <p>March 2016 - <i>Relationship Between Prosthetic Push-Off Work And Stride-To-Stride Fluctuations In Transtibial Prosthesis Users</i> <br />
-                <a href="http://www.unomaha.edu/office-of-research-and-creative-activity/students/research-and-creative-activity-fair.php" target="_blank"> Research and Creative Activity Fair,</a> <a href="http://www.unomaha.edu/" target="_blank"> University of Nebraska at Omaha,</a> Omaha, NE</p>
-              </div>
-
-              <div className={'presentation'}>
-                <p>October 2015 – <i>Metabolic Cost and Long-Term Correlations in Human Gait</i> <br />
-                <a href="http://www.unomaha.edu/college-of-education/health-physical-education-recreation/community-engagement/seminar-series/index.php" target="_blank"> School of HPER Seminar Series,</a> <a href="http://www.unomaha.edu/" target="_blank"> University of Nebraska at Omaha,</a> Omaha, NE</p>
-              </div>
-
-
-
-
-
+              {PUBLICATIONS.map(pub => (
+                <div className={'publication'} key={pub.doi}>
+                  <p>
+                    {pub.authors.map((author, i) => (
+                      <span key={author}>
+                        {author === ME ? <strong>{author}</strong> : author}
+                        {i < pub.authors.length - 1 ? ', ' : ' '}
+                      </span>
+                    ))}
+                    ({pub.year}). {pub.title}. <i>{pub.journal}</i>{pub.details ? `, ${pub.details}` : ''}.
+                  </p>
+                  <p><a className={'presentation_button'} href={`https://doi.org/${pub.doi}`} target="_blank" rel="noopener noreferrer">doi:{pub.doi}</a></p>
+                </div>
+              ))}
             </div>
           </div>
         </Element>

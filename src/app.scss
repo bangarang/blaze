@@ -31,6 +31,7 @@ h4 {
 body {
   font-family:fira-sans;
   margin: 0;
+  background: white;
 }
 
 .wf-active {
@@ -208,11 +209,33 @@ a:hover, a.active {
   font-size: 50px;
 }
 
-.presentation {
+.bio_wrapper {
+  p {
+    line-height: 1.7;
+  }
+  p a {
+    color: white;
+    &:before {
+      background: white;
+    }
+  }
+  .bio_heading + p {
+    margin-top: 0;
+  }
+}
+
+.publication {
   line-height: 1.7;
   margin: 0 0 30px;
   background: #eee;
   padding: 15px 15px 20px;
+  overflow: hidden;
+  p {
+    margin: 0 0 10px;
+  }
+  .presentation_button {
+    text-transform: none;
+  }
 }
 
 .presentation_button {
@@ -451,6 +474,12 @@ footer {
       &:hover {
         color: #84bd00;
         text-decoration: none;
+      }
+
+      svg {
+        width: 50px;
+        height: 50px;
+        fill: currentColor;
       }
 
     }
