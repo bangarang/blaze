@@ -19,6 +19,14 @@ const LAB_URL = 'https://www.engineering.pitt.edu/subsites/Labs/sml/profiles/tea
 
 const ME = 'Rock CG';
 
+const POSTER = {
+  meeting: 'Society for Neuroscience 2026',
+  title: 'Automaticity and motor learning: changes in spinal activity and cortical activation during split-belt adaptation',
+  pdf: '/2026SfNPoster_CRock.pdf',
+  image: '/2026SfNPoster_CRock-2400.jpg',
+  srcSet: '/2026SfNPoster_CRock-1200.jpg 1200w, /2026SfNPoster_CRock-2400.jpg 2400w',
+};
+
 // Newest first
 const PUBLICATIONS = [
   {
@@ -84,7 +92,7 @@ class HomePage extends Component {
       phd: false,
       biomechanics: false,
       neuroscience: false,
-      face: false
+      poster: false
     };
   }
 
@@ -118,8 +126,7 @@ class HomePage extends Component {
     }, 1650);
 
     setTimeout(function() {
-      console.log("face");
-      self.setState({face: true});
+      self.setState({poster: true});
     }, 1900);
     if (pathname.length){
       setTimeout(function() {
@@ -164,9 +171,27 @@ class HomePage extends Component {
       phd,
       biomechanics,
       neuroscience,
-      face,
+      poster,
       main_logo
     } = this.state;
+
+    const posterContent = (
+      <div>
+        <a href={POSTER.pdf} target="_blank" rel="noopener noreferrer" className={'poster_link'}>
+          <img
+            src={POSTER.image}
+            srcSet={POSTER.srcSet}
+            sizes="(max-width: 1400px) 100vw, 1400px"
+            alt={`Research poster: ${POSTER.title}`}
+            className={'poster_image_large'} />
+        </a>
+        <figcaption>
+          <span className={'poster_meeting'}>{POSTER.meeting}</span>
+          <span className={'poster_title'}>{POSTER.title}</span>
+          <a className={'presentation_button'} href={POSTER.pdf} target="_blank" rel="noopener noreferrer">View full poster (PDF)</a>
+        </figcaption>
+      </div>
+    )
 
     return (
       <div>
@@ -309,24 +334,29 @@ class HomePage extends Component {
             }
 
           </div>
-          { face ?
+        </div>
+
+        <div className={'poster_wrapper'}>
+          { poster ?
             <Motion
-              key="face"
+              key="poster"
               defaultStyle={{x: 100, opacity: 0}}
               style={{x: spring(0, presets.gentle), opacity: spring(1, presets.gentle)}}>
-              {  function (name_style) {
+              {  function (poster_style) {
                 return (
-                  <img src="/face.svg"
+                  <figure
+                    className={'poster'}
                     style={{
-                          WebkitTransform: `translateY(${name_style.x}px)`,
-                          transform: `translateY(${name_style.x}px)`,
-                          opacity: name_style.opacity
-                        }}
-                    className={'face'} />
+                          WebkitTransform: `translateY(${poster_style.x}px)`,
+                          transform: `translateY(${poster_style.x}px)`,
+                          opacity: poster_style.opacity
+                        }}>
+                    {posterContent}
+                  </figure>
                 )
               }}
             </Motion>
-            : <img src="/face.svg" style={{ opacity: 0 }} className={'face'} />
+            : <figure className={'poster'} style={{ opacity: 0 }}>{posterContent}</figure>
           }
         </div>
 
