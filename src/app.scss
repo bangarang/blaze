@@ -146,10 +146,67 @@ a:hover, a.active {
     font-size: 26px;
   }
 }
+// Not currently shown on the page; kept for when face.svg comes back.
 .face {
   margin: 50px 0;
   width: 550px;
   max-width: 100%;
+}
+
+.poster_wrapper {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 40px 15px 75px;
+}
+
+.poster {
+  margin: 0;
+  text-align: center;
+
+  .poster_link {
+    display: block;
+    &:before {
+      display: none;
+    }
+  }
+
+  .poster_image_large {
+    display: block;
+    width: 100%;
+    height: auto;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.25);
+    transition: box-shadow 0.15s ease-out;
+  }
+
+  .poster_link:hover .poster_image_large {
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.45);
+  }
+
+  figcaption {
+    margin-top: 25px;
+    line-height: 1.5;
+  }
+
+  .poster_meeting {
+    display: block;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    font-size: 14px;
+    color: #666;
+  }
+
+  .poster_title {
+    display: block;
+    font-size: 20px;
+    font-style: italic;
+    margin: 5px auto 20px;
+    max-width: 900px;
+  }
+
+  .presentation_button {
+    float: none;
+    margin: 0;
+  }
 }
 
 .main_logo_finished {
